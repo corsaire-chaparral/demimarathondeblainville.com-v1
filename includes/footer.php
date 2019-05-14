@@ -54,7 +54,7 @@ else {
                 <a href="http://www.festifetes.ca/" target="_blank"><img src="/images/sponsors/silver/sponsors_silver_5.jpg" /></a>
                 <a href="https://www.sportsexperts.ca/fr-CA/" target="_blank"><img src="/images/sponsors/silver/sponsors_silver_6.jpg" /></a>
                 <a href="http://www.quebecor.com/fr" target="_blank"><img src="/images/sponsors/silver/sponsors_silver_7.jpg" /></a>
-                <a href="http://www.trackiereg.com/" target="_blank"><img src="/images/sponsors/silver/sponsors_silver_8.jpg" /></a>
+<!--                <a href="http://www.trackiereg.com/" target="_blank"><img src="/images/sponsors/silver/sponsors_silver_8.jpg" /></a>-->
                 <a href="http://corsaire-chaparal.org/accueil/" target="_blank"><img src="/images/sponsors/silver/sponsors_silver_9.jpg" /></a>
                 <!--<a href="http://www.vision-expert.com" target="_blank"><img src="/images/sponsors/silver/sponsors_silver_10.jpg" /></a>-->
             </div>
@@ -82,11 +82,13 @@ else {
             </div>
         </div>
         
+<!--
         <div class="bottom">
             <div><?php echo $copyright_footer_text; ?></div>
             <a href="http://www.trackie.org" title="Trackie" class="trackie" target="_blank">TRACKIE</a>
         </div>
-        <p style="text-align:center;"><img src="/images/circuitProv.png" alt="circuitProv" width="312" height="74" /></p></div>
+-->
+<!--        <p style="text-align:center;"><img src="/images/circuitProv.png" alt="circuitProv" width="312" height="74" /></p></div>-->
     </div>
 </footer>
 
