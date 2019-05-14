@@ -3,7 +3,7 @@ session_start();
 if ($_GET['lang']=='fr') {
 	$registration_url='https://makeitrun.co/races/2019/demi-marathon-de-blainville';
 	$lang_opposite_text='ENGLISH';
-	$meta_title_text='Le Demi-Marathon Oasis de Blainville - 8 septembre 2019';
+	$meta_title_text='Le Demi-Marathon de Blainville - 8 septembre 2019';
 	$home_text='ACCUEIL';
 	$race_day_info_text='INFORMATION';
 	$course_map_text='PARCOURS';
@@ -62,7 +62,7 @@ if ($_GET['lang']=='fr') {
 else {
 	$registration_url='https://makeitrun.co/races/2019/demi-marathon-de-blainville';
 	$lang_opposite_text='FRAN&Ccedil;AIS';
-	$meta_title_text='Le Demi-Marathon Oasis de Blainville - September 8, 2019';
+	$meta_title_text='Le Demi-Marathon de Blainville - September 8, 2019';
 	$home_text='Home';
 	$race_day_info_text='Race Day Information';
 	$course_map_text='Course Map';
@@ -228,7 +228,7 @@ src="https://www.facebook.com/tr?id=236810713503679&ev=PageView
     
     <?php if ($section=='home') { ?>
     <div class="content">
-        <h1><span><?php echo $long_date_text; ?></span>LE DEMI-MARATHON<br/>OASIS DE BLAINVILLE</h1>
+        <h1><span><?php echo $long_date_text; ?></span>LE DEMI-MARATHON<br/>DE BLAINVILLE</h1>
         <a href="<?php echo $registration_url; ?>" target="_blank"><?php echo $register_now2_text; ?></a>
     </div>
     

@@ -26,9 +26,11 @@ else {
                 <a href="#sponsors_main" class="active"><?php echo $main_sponsor_text; ?></a> | <a href="#sponsors_gold"><?php echo $gold_text; ?></a> | <a href="#sponsors_silver"><?php echo $silver_text; ?></a> | <a href="#sponsors_bronze"><?php echo $bronze_text; ?></a>
             </div>
             
+<!--
             <div id="sponsors_main" class="tabContent active">
                 <a href="http://www.oasis.ca/" target="_blank"><img src="/images/sponsors/bronze/sponsors_bronze_4.jpg" /></a>
             </div>
+-->
             
             <div id="sponsors_gold" class="tabContent">
                 <a href="http://blainville.ca/" target="_blank"><img src="/images/sponsors/gold/sponsors_gold_1.jpg" /></a>

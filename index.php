@@ -85,12 +85,14 @@ else {
                 <h2 class="slab"><?php echo $latest_news_text; ?></h2>
                 
                 <ul>
+<!--
                     <li>
                         <a href="#"><img src="/images/news4.jpg" class="pic" /></a>
                         <div class="content">
-                            <span>Le Demi-Marathon Oasis de Blainville et la Fondation Bruny Surin seront cette ann&eacute;e les h&ocirc;tes du championnat provincial du Circuit Provincial Sports Experts, qui se tiendra le 28 octobre 2018. Cette course mettra en vedette les cinq gar&ccedil;ons et les cinq filles de moins de 11 ans les plus rapides lors du 1 km des 17 courses du circuit de qualification. Venez les encourager! </span>
+                            <span>Le Demi-Marathon de Blainville et la Fondation Bruny Surin seront cette ann&eacute;e les h&ocirc;tes du championnat provincial du Circuit Provincial Sports Experts, qui se tiendra le 28 octobre 2018. Cette course mettra en vedette les cinq gar&ccedil;ons et les cinq filles de moins de 11 ans les plus rapides lors du 1 km des 17 courses du circuit de qualification. Venez les encourager! </span>
                         </div>
                     </li>
+-->
                     <li>
                         <a href="#"><img src="/images/news1.jpg" class="pic" /></a>
                         <div class="content">

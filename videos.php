@@ -20,7 +20,7 @@ else {
                     <a href="https://vimeo.com/243451331"><img src="/images/video6.jpg" /></a>
                 </div>
                 <div class="title">
-                    <h3>Le Demi-Marathon Oasis de Blainville</h3>
+                    <h3>Le Demi-Marathon de Blainville</h3>
                     2017
                 </div>
             </li>
@@ -29,7 +29,7 @@ else {
                     <a href="https://vimeo.com/192610538"><img src="/images/video5.jpg" /></a>
                 </div>
                 <div class="title">
-                    <h3>Le Demi-Marathon Oasis de Blainville</h3>
+                    <h3>Le Demi-Marathon de Blainville</h3>
                     2016
                 </div>
             </li>
