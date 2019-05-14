@@ -25,17 +25,18 @@ else {
         <h1><?php echo $title_text; ?></h1>
         
         <ul class="results">
-            <li><a href="/images/final21km-2018.pdf" target="_blank">Demi-marathon</a></li>
-            <li><a href="/images/final10km-2018.pdf" target="_blank">10km</a></li>
-            <li><a href="/images/final5km-2018.pdf" target="_blank">5km</a></li>
-            <li><a href="/images/final5km-2018.pdf" target="_blank">5km Marche</a></li>
-            <li><a href="/images/final2km-2018.pdf" target="_blank">2km</a></li>
-            <li><a href="/images/final1km-2018.pdf" target="_blank">1km</a></li>
+            <li><a href="/images/parcours/21km.pdf" target="_blank">Demi-marathon</a></li>
+            <li><a href="/images/parcours/10km.pdf" target="_blank">10km</a></li>
+            <li><a href="/images/parcours/5km.pdf" target="_blank">5km</a></li>
+            <li><a href="/images/parcours/5km.pdf" target="_blank">5km Marche</a></li>
+            <li><a href="/images/parcours/2km.pdf" target="_blank">2km</a></li>
+            <li><a href="/images/parcours/1km.pdf" target="_blank">1km</a></li>
         </ul>
         
         <ul class="results">
             <li><a href="/images/PLAN-AGRANDI-DU-MANEGE.pdf" target="_blank">PLAN AGRANDI DU MANEGE</a></li>
             <li><a href="/images/PLAN-AGRANDI-DEPART-ARRIVEE.pdf" target="_blank">PLAN AGRANDI DE&#769;PART/ARRIVE&#769;E</a></li>
+            <li><a href="/images/parcours/21k-Blainville-plan-du-denivele.pdf" target="_blank">Plan du dénivelé</a></li>
         </ul>
             
         

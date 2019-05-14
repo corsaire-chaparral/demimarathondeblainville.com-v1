@@ -1,9 +1,9 @@
 <?php
 session_start();
 if ($_GET['lang']=='fr') {
-	$registration_url='https://www.trackie.com/inscription/evenement/le-demi-marathon-oasis-de-blainville/6825/';
+	$registration_url='https://makeitrun.co/races/2019/demi-marathon-de-blainville';
 	$lang_opposite_text='ENGLISH';
-	$meta_title_text='Le Demi-Marathon Oasis de Blainville - 28 octobre 2018';
+	$meta_title_text='Le Demi-Marathon Oasis de Blainville - 8 septembre 2019';
 	$home_text='ACCUEIL';
 	$race_day_info_text='INFORMATION';
 	$course_map_text='PARCOURS';
@@ -13,10 +13,10 @@ if ($_GET['lang']=='fr') {
 	$photos_and_videos_text='Pictures &amp; Videos';
 	$training_text='ENTRAINEMENTS';
 	$contact_text='NOUS REJOINDRE';
-	$oct_30_text='28 OCT';
+	$sep_08_text='08 SEP';
 	$register_now_text='Inscrivez-vous<span>maintenant</span>';
 	$menu_text='Navigation';
-	$long_date_text='28 OCT 2018';
+	$long_date_text='8 SEP 2019';
 	$register_now2_text='Inscrivez-vous maintenant';
 	$volunteer_text='B&Eacute;N&Eacute;VOLE';
 	 
@@ -60,9 +60,9 @@ if ($_GET['lang']=='fr') {
                     </li>';
 }
 else {
-	$registration_url='https://www.trackie.com/online-registration/event/le-demi-marathon-oasis-de-blainville/6825/';
+	$registration_url='https://makeitrun.co/races/2019/demi-marathon-de-blainville';
 	$lang_opposite_text='FRAN&Ccedil;AIS';
-	$meta_title_text='Le Demi-Marathon Oasis de Blainville - October 28, 2018';
+	$meta_title_text='Le Demi-Marathon Oasis de Blainville - September 8, 2019';
 	$home_text='Home';
 	$race_day_info_text='Race Day Information';
 	$course_map_text='Course Map';
@@ -72,10 +72,10 @@ else {
 	$photos_and_videos_text='Pictures &amp; Videos';
 	$training_text='Training';
 	$contact_text='Contact';
-	$oct_30_text='OCT 28';
+	$sep_08_text='SEP 8';
 	$register_now_text='REGISTER<span>NOW</span>';
 	$menu_text='MENU';
-	$long_date_text='OCT 28, 2018';
+	$long_date_text='SEP 8, 2019';
 	$register_now2_text='REGISTER NOW';
 	$volunteer_text='VOLUNTEER';
 	
@@ -181,7 +181,7 @@ src="https://www.facebook.com/tr?id=236810713503679&ev=PageView
             </ul>
 
             <a href="<?php echo $registration_url; ?>" target="_blank" class="date">
-                <div class="left"><span><?php echo $oct_30_text; ?></span>2018</div>
+                <div class="left"><span><?php echo $sep_08_text; ?></span>2019</div>
                 <div class="right"><?php echo $register_now_text; ?></div>
             </a>
         </div>
@@ -193,12 +193,12 @@ src="https://www.facebook.com/tr?id=236810713503679&ev=PageView
         
         <!-- HEADER -->
         <header>
-            <a href="<?php echo $home_url; ?>"><img src="/images/logoV4.png" class="logo" alt="Demi-Marathon de Blainville" /></a>
+            <a href="<?php echo $home_url; ?>"><img src="/images/logo.png" class="logo" alt="Demi-Marathon de Blainville" /></a>
             
-            <img src="/images/logo_surin.png" class="surin" alt="Fondation Bruny Surin" />
+            <img src="/images/logo-coch-sm.png" class="coch-logo" alt="Club d'athlétisme Corsaire-Chaparral" />
             
             <a href="<?php echo $registration_url; ?>" target="_blank" class="date">
-                <div class="left"><span><?php echo $oct_30_text; ?></span>2018</div>
+                <div class="left"><span><?php echo $sep_08_text; ?></span>2019</div>
 	            <div class="right"><?php echo $register_now_text; ?></div>
             </a>
             

@@ -14,8 +14,8 @@ if ($_GET['lang']=='fr') {
 	$archive_text='ARCHIVE';
 	$view_photo_text='<small>Visionner la</small><br/>galerie de photos';
 	$schedule_of_events_text='Horaire';
-	$news_1_date_text='novembre 2017';
-	$news_1_text='Nous acceptons maintenant les inscriptions pour 2018.';
+	$news_1_date_text='mai 2019';
+	$news_1_text='Nous acceptons maintenant les inscriptions pour 2019.';
     $news_2_date_text='novembre 2016';
 	$news_2_text='C\'est le temps de vous entrainer!';
     $news_3_date_text='octobre 2016';
@@ -34,8 +34,8 @@ else {
 	$archive_text='ARCHIVE';
 	$view_photo_text='<small>VIEW THE</small><br/>PHOTO GALLERY';
 	$schedule_of_events_text='SCHEDULE <small>OF EVENTS</small>';
-	$news_1_date_text='November 2017';
-	$news_1_text='2018 Registration is now opened!';
+	$news_1_date_text='May 2019';
+	$news_1_text='2019 Registration is now opened!';
     $news_2_date_text='November 2016';
 	$news_2_text='It\'s time to start training for 2017!';
     $news_3_date_text='October 2016';

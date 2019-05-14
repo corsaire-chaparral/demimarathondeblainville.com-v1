@@ -1,6 +1,6 @@
 <?php
 if ($_GET['lang']=='fr') {
-	$copyright_footer_text='&copy; 2017 La Course de Blainville';
+	$copyright_footer_text='&copy; 2019 Le Demi-marathon de Blainville';
 	$sponsors_text='Partenaires';
 	$gold_text='Or';
 	$silver_text='Argent';
@@ -8,7 +8,7 @@ if ($_GET['lang']=='fr') {
 	$main_sponsor_text='Pr&Eacute;sent&Eacute; par';
 }
 else {
-	$copyright_footer_text='All content &copy; 2017 La Course de Blainville';
+	$copyright_footer_text='All content &copy; 2019 Le Demi-marathon de Blainville';
 	$sponsors_text='SPONSORS';
 	$gold_text='GOLD';
 	$silver_text='SILVER';

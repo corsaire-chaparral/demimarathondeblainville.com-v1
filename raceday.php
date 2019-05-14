@@ -5,7 +5,7 @@ if ($_GET['lang']=='fr') {
 	$title_text='Déroulement de la journée';
 	
 	$schedule_subject_change_text='Des modifications peuvent être apportées à l\'horaire ci-dessous.';
-    $schedule_notes_text='*Les inscriptions ne seront pas possibles le dimanche 28 octobre 2018.<br/>*Les coureurs peuvent se procurer leur trousse de d&eacute;part et puces de chronom&eacute;trage le samedi 27 octobre 2018 entre 10hres et 16hres directement au Parc &Eacute;questre, au 1025, chemin du Plan-Bouchard, Blainville (Qc) ou la journ&eacute;e m&ecirc;me de l\'&eacute;v&egrave;nement.';
+    $schedule_notes_text='*Les inscriptions ne seront pas possibles le jour de la course.<br/>';
     $all_profits_text='Au profit de la Fondation Bruny Surin';
 	$race_takes_place_text='C\'est &agrave; Blainville, &agrave; 20 minutes au nord de Montr&eacute;al, qu\'aura lieu la 8e &eacute;dition de la Course de Blainville. Notre magnifique parcours dans un secteur r&eacute;sidentiel de prestige vous donnera l\'occasion de participer &agrave; diff&eacute;rentes &eacute;preuves.'; 
     $list_races_text='
@@ -105,7 +105,7 @@ if ($_GET['lang']=='fr') {
 else {
 	$title_text='Race Day Information';
 	$schedule_subject_change_text='Note schedule is subject to change.';
-    $schedule_notes_text='*Race entries will not be possible on October 28th, 2017.<br/>*Participants can pick up their bibs and timing chips on Saturday October 27th from 10:00am &ndash; 4:00pm at the race headquarters. Participants can also pick up their bibs and timing chips on race day beginning at 7:00am. The race headquarters are situated at Parc &Eacute;questre 1025, chemin du Plan-Bouchard, Blainville, Quebec.';
+    $schedule_notes_text='*Race entries will not be possible on the race day.';
     $all_profits_text='All profits are given to the Bruny Surin Foundation.';
 	$race_takes_place_text='The race takes place in the beautiful city Blainville, situated 20 minutes north of Montreal.  Our races that take place in a prestigious residential area of Blainville will allow participants to cover the following distances. '; 
     $list_races_text='
