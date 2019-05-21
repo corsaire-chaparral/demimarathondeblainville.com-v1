@@ -44,11 +44,11 @@ if ($_GET['lang']=='fr') {
                     </li>
                     <li>
                         <div class="time">11h10</div>
-                        <div class="content">D&eacute;part de la course de 2km des Armada &amp; 5km marche</div>
+                        <div class="content">D&eacute;part de la course de 2km &amp; 5km marche</div>
                     </li>
                     <li>
                         <div class="time">11h40</div>
-                        <div class="content">D&eacute;part de la course 1 km 8 &agrave; 11 ans</div>
+                        <div class="content">D&eacute;part de la course 1km 8 &agrave; 11 ans</div>
                     </li>
                     <li>
                         <div class="time">11h50</div>
