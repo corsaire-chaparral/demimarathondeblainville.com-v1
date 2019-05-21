@@ -193,14 +193,15 @@ src="https://www.facebook.com/tr?id=236810713503679&ev=PageView
         
         <!-- HEADER -->
         <header>
-            <a href="<?php echo $home_url; ?>"><img src="/images/logo.png" class="logo" alt="Demi-Marathon de Blainville" /></a>
             
-            <img src="/images/logo-coch-sm.png" class="coch-logo" alt="Club d'athlétisme Corsaire-Chaparral" />
+            <a href="<?php echo $home_url; ?>"><img src="/images/logo.png" class="logo" alt="Demi-Marathon de Blainville" /></a>
             
             <a href="<?php echo $registration_url; ?>" target="_blank" class="date">
                 <div class="left"><span><?php echo $sep_08_text; ?></span>2019</div>
 	            <div class="right"><?php echo $register_now_text; ?></div>
             </a>
+
+            <img src="/images/logo-coch-sm.png" class="coch-logo" alt="Club d'athlétisme Corsaire-Chaparral" />
             
             <!-- NAV -->
             <nav>
