@@ -760,7 +760,12 @@ footer {
         footer .bottom div { float: left; }
 
     footer .organizer-logo {
-/*        font-size: 24px;*/
+        padding: 1.5em;
+    }
+    footer .organizer-text {
+        font-size: 24px;
+        font-family: Averta, Avenir, 'Seguoe UI', sans-serif;
+        font-weight: bold;
         color: #fff;
     }
     footer .organizer-logo > svg {
