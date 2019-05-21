@@ -6,8 +6,8 @@ if ($_GET['lang']=='fr') {
 	
 	$schedule_subject_change_text='Des modifications peuvent être apportées à l\'horaire ci-dessous.';
     $schedule_notes_text='*Les inscriptions ne seront pas possibles le jour de la course.<br/>';
-    $all_profits_text='Au profit de la Fondation Bruny Surin';
-	$race_takes_place_text='C\'est &agrave; Blainville, &agrave; 20 minutes au nord de Montr&eacute;al, qu\'aura lieu la 8e &eacute;dition de la Course de Blainville. Notre magnifique parcours dans un secteur r&eacute;sidentiel de prestige vous donnera l\'occasion de participer &agrave; diff&eacute;rentes &eacute;preuves.'; 
+    $all_profits_text='Au profit de la Fondation Centre sportif Blainville';
+	$race_takes_place_text='C\'est &agrave; Blainville, &agrave; 20 minutes au nord de Montr&eacute;al, qu\'aura lieu la 4e &eacute;dition du Demi-marathon de Blainville. Notre magnifique parcours dans un secteur r&eacute;sidentiel de prestige vous donnera l\'occasion de participer &agrave; diff&eacute;rentes &eacute;preuves.'; 
     $list_races_text='
         <li>course de 5 km, 10 km et 21km</li>
         <li>Marche de 5 km</li>
@@ -16,14 +16,15 @@ if ($_GET['lang']=='fr') {
 
     $services_full_html_text='
                 <p>De nombreux services seront mis &agrave; votre disposition afin de rendre votre course agr&eacute;able et enrichissante.</p>
-                
+
                 <ul class="list">
-                    <li>Chronom&eacute;trage par puce</li>
-                    <li>Points d&rsquo;eau sur le parcours</li>
-                    <li>&Eacute;quipe m&eacute;dicale sur place</li>
-                    <li>Parcours s&eacute;curis&eacute;</li>
-                    <li>Marquage au km</li>
-                    <li>D&eacute;salt&eacute;ration et go&ucirc;ter apr&egrave;s la course</li>
+                    <li>⏱ Chronom&eacute;trage professionnel par <a href="https://www.sportstats.ca/events.xhtml?eventname=demi-marathon+de+blainville" style="color:rgb(65, 168, 95);"><em><strong>Sportstats</strong></em></a></li>
+                    <li>🥈 Certification ARGENT par la F&eacute;d&eacute;ration qu&eacute;b&eacute;coise d&rsquo;athl&eacute;tisme</li>
+                    <li>💧 Points d&rsquo;eau sur le parcours</li>
+                    <li>🚑 Premiers soins sur place</li>
+                    <li>🚧 Parcours s&eacute;curis&eacute;</li>
+                    <li>🏁 Marquage au km</li>
+                    <li>🍎 D&eacute;salt&eacute;ration et go&ucirc;ter apr&egrave;s la course</li>
                 </ul>';
                 
     $full_medals_html_text='
@@ -49,7 +50,7 @@ if ($_GET['lang']=='fr') {
                             <h4>2 km</h4>
 
                             <ul class="list">
-                                <li>8 ans et moins</li>
+                                <li>8 ans</li>
                                 <li>9-10 ans</li>
                                 <li>11-12 ans</li>
                                 <li>13-19 ans</li>
@@ -61,7 +62,7 @@ if ($_GET['lang']=='fr') {
                             <h4>5 km</h4>
 
                             <ul class="list">
-                                <li>12 ans et moins</li>
+                                <li>11-12 ans</li>
                                 <li>13-15 ans</li>
                                 <li>16-19 ans</li>
                                 <li>20-29 ans</li>
@@ -77,7 +78,7 @@ if ($_GET['lang']=='fr') {
                             <h4>10 km</h4>
 
                             <ul class="list">
-                                <li>19 ans et moins</li>
+                                <li>15-19 ans</li>
                                 <li>20-29 ans</li>
                                 <li>30-39 ans</li>
                                 <li>40-49 ans</li>
@@ -91,7 +92,7 @@ if ($_GET['lang']=='fr') {
                             <h4>Demi-marathon</h4>
 
                             <ul class="list">
-                                <li>19 ans et moins</li>
+                                <li>17-19 ans</li>
                                 <li>20-29 ans</li>
                                 <li>30-39 ans</li>
                                 <li>40-49 ans</li>
@@ -106,25 +107,25 @@ else {
 	$title_text='Race Day Information';
 	$schedule_subject_change_text='Note schedule is subject to change.';
     $schedule_notes_text='*Race entries will not be possible on the race day.';
-    $all_profits_text='All profits are given to the Bruny Surin Foundation.';
-	$race_takes_place_text='The race takes place in the beautiful city Blainville, situated 20 minutes north of Montreal.  Our races that take place in a prestigious residential area of Blainville will allow participants to cover the following distances. '; 
+    $all_profits_text='All profits are given to the Centre sportif de Blainville Foundation.';
+	$race_takes_place_text='The race takes place in the beautiful city Blainville, situated 20 minutes north of Montreal. Our races that take place in a prestigious residential area of Blainville will allow participants to cover the following distances. '; 
     $list_races_text='
         <li>5 km, 10 km & 21km races</li>
         <li>5 km walk</li>
         <li>2 km race</li>
-        <li>1km kids races</li>';
+        <li>1km kids race</li>';
         
     $services_full_html_text='
                 <p>Many services will be offered that will make your experience that much better.</p>
                 
                 <ul class="list">
-                    <li>Chip timing</li>
-					<li>Water stations</li>
-					<li>On-site medical professionals</li>
-					<li>On-site massage therapists</li>
-					<li>Security provided by the city of Blainville’s police force</li>
-					<li>Official kilometer markings for all distances.</li>
-					<li>Food, fun & entertainment after the races!</li>
+                    <li>⏱ Professional chip timing provided by <a href="https://www.sportstats.ca/events.xhtml?eventname=demi-marathon+de+blainville" style="color:rgb(65, 168, 95);"><em><strong>Sportstats</strong></em></a></li>
+                    <li>🥈 Certified SILVER by the F&eacute;d&eacute;ration qu&eacute;b&eacute;coise d&rsquo;athl&eacute;tisme</li>
+                    <li>💧 On-course water stations</li>
+                    <li>🚑 On-site first-aid professionals</li>
+                    <li>🚧 Security provided by the city of Blainville’s police force</li>
+                    <li>🏁 Official kilometer markings for all distances</li>
+                    <li>🍎 Food, fun & entertainment after the races!</li>
                 </ul>';
                 
     $full_medals_html_text='
@@ -140,7 +141,7 @@ else {
                             <h4>1 km</h4>
 
                             <ul class="list">
-                                <li>5 years and under</li>
+                                <li>5 years old</li>
                                 <li>6-7 years old</li>
                                 <li>8-9 years old</li>
                                 <li>10-11 years old</li>
@@ -150,7 +151,7 @@ else {
                             <h4>2 km</h4>
 
                             <ul class="list">
-                                <li>8 and under</li>
+                                <li>8 years old</li>
                                 <li>9-10 years old</li>
                                 <li>11-12 years old</li>
                                 <li>13-19 years old</li>
@@ -162,7 +163,7 @@ else {
                             <h4>5 km</h4>
 
                             <ul class="list">
-                                <li>12 years and under</li>
+                                <li>11-12 years old</li>
                                 <li>13-15 years old</li>
                                 <li>16-19 years old</li>
                                 <li>20-29 years old</li>
@@ -178,7 +179,7 @@ else {
                             <h4>10 km</h4>
 
                             <ul class="list">
-                                <li>19 years and under</li>
+                                <li>15-19 years old</li>
                                 <li>20-29 years old</li>
                                 <li>30-39 years old</li>
                                 <li>40-49 years old</li>
@@ -192,7 +193,7 @@ else {
                             <h4>Half Marathon</h4>
 
                             <ul class="list">
-                                <li>19 years old and under</li>
+                                <li>17-19 years old</li>
                                 <li>20-29 years old</li>
                                 <li>30-39 years old</li>
                                 <li>40-49 years old</li>
@@ -239,7 +240,7 @@ else {
             </div>
             
             <div class="col col_12">
-                <?php echo $full_medals_html_text; ?>
+                <?php // echo $full_medals_html_text; ?>
             </div>
             
             <div class="col col_12">    
