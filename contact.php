@@ -2,7 +2,7 @@
 $section='contact';
 include getenv("DOCUMENT_ROOT")."/includes/header.php";
 if ($_GET['lang']=='fr') {
-	$title_text='NOUS REJOINDRE';
+	$title_text='NOUS JOINDRE';
 	$contact_info_text='Les d&eacute;parts et le centre des activit&eacute;s se font &agrave; la Parc &Eacute;questre, au 1025, chemin du Plan-Bouchard, Blainville (Qc)';
 }
 else {

@@ -12,7 +12,7 @@ if ($_GET['lang']=='fr') {
 	$videos_text='VIDEOS';
 	$photos_and_videos_text='Pictures &amp; Videos';
 	$training_text='ENTRAINEMENTS';
-	$contact_text='NOUS REJOINDRE';
+	$contact_text='NOUS JOINDRE';
 	$sep_08_text='08 SEP';
 	$register_now_text='Inscrivez-vous<span>maintenant</span>';
 	$menu_text='Navigation';
