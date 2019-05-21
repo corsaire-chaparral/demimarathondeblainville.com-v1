@@ -84,7 +84,7 @@ else {
         
         <div class="row">
 
-          <div class="col col_2">
+          <div class="col col_3">
             <a href="https://corsaire-chaparral.org" title="Club d'athlétisme Corsaire-Chaparral" class="organizer-logo" target="_blank">
 
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 483.8 483.8" width="483.8" height="483.8">
@@ -113,15 +113,14 @@ else {
             </a>
           </div>
             
-          <div class="col col_10">
+          <div class="col col_9">
               <div class="organizer-text">
                   Club d'athlétisme Corsaire-Chaparral
               </div>
+              <p role="contentinfo">
+                  <?php echo $copyright_footer_text; ?>
+              </p>
           </div>
-        </div>
-        
-        <div class="row">
-            <?php echo $copyright_footer_text; ?>
         </div>
 
 <!--        <p style="text-align:center;"><img src="/images/circuitProv.png" alt="circuitProv" width="312" height="74" /></p></div>-->
