@@ -48,11 +48,11 @@ if ($_GET['lang']=='fr') {
                     </li>
                     <li>
                         <div class="time">11h40</div>
-                        <div class="content">D&eacute;part de la course 1 km 8 &agrave; 11 ans (d&eacute;guis&eacute;)</div>
+                        <div class="content">D&eacute;part de la course 1 km 8 &agrave; 11 ans</div>
                     </li>
                     <li>
                         <div class="time">11h50</div>
-                        <div class="content">D&eacute;part de la course 1km 7 ans et moins (d&eacute;guis&eacute;)</div>
+                        <div class="content">D&eacute;part de la course 1km 7 ans et moins</div>
                     </li>
                     <li>
                         <div class="time">12h10</div>
@@ -107,11 +107,11 @@ else {
                     </li>
                     <li>
                         <div class="time">11h40</div>
-                        <div class="content">Start of the 1 km 8-11 years old (Dressed in costumes) </div>
+                        <div class="content">Start of the 1 km 8-11 years old </div>
                     </li>
                     <li>
                         <div class="time">11h50</div>
-                        <div class="content">Start of the 1km 7 years and under (Dressed in costumes)</div>
+                        <div class="content">Start of the 1km 7 years and under</div>
                     </li>
                     <li>
                         <div class="time">12h10</div>
