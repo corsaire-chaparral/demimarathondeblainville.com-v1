@@ -44,7 +44,7 @@ if ($_GET['lang']=='fr') {
                     </li>
                     <li>
                         <div class="time">11h10</div>
-                        <div class="content">D&eacute;part de la course de 2km &amp; 5km marche</div>
+                        <div class="content">D&eacute;part de la course de 2km</div>
                     </li>
                     <li>
                         <div class="time">11h40</div>
@@ -56,7 +56,7 @@ if ($_GET['lang']=='fr') {
                     </li>
                     <li>
                         <div class="time">12h10</div>
-                        <div class="content">D&eacute;part de la course 5km</div>
+                        <div class="content">D&eacute;part du 5km course et marche</div>
                     </li>';
 }
 else {
@@ -103,7 +103,7 @@ else {
                     </li>
                     <li>
                         <div class="time">11h10</div>
-                        <div class="content">Start of the 2km &amp; 5km Walk</div>
+                        <div class="content">Start of the 2km</div>
                     </li>
                     <li>
                         <div class="time">11h40</div>
@@ -115,7 +115,7 @@ else {
                     </li>
                     <li>
                         <div class="time">12h10</div>
-                        <div class="content">Start of the 5km</div>
+                        <div class="content">Start of the 5km Run &amp; 5km Walk</div>
                     </li>';
 
 }
