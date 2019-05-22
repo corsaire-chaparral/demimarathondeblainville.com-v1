@@ -3,15 +3,12 @@ $section='volunteer';
 include getenv("DOCUMENT_ROOT")."/includes/header.php";
 if ($_GET['lang']=='fr') {
 	$title_text='B&eacute;n&eacute;vole';
-	$content_html_text='<p>Inscrivez-vous en tant que bénévole. Pour être bénévole,</p>
-
-        <p>Vous devez &ecirc;tre disponible le dimanche 28 octobre 2018 de 6h &agrave; 14h, tout d&eacute;pendamment de votre poste de travail. Vous recevrez une confirmation de votre poste de travail et autres d&eacute;tails pertinents dans la semaine du 22 octobre 2018. Nous vous prions de v&eacute;rifier soigneusement vos courriels.</p>
+	$content_html_text='<p><strong>Inscrivez-vous en tant que bénévole!</strong> Pour être bénévole, vous devez &ecirc;tre disponible le dimanche 8 septembre 2019 de 6h &agrave; 14h, tout d&eacute;pendamment de votre poste de travail. Vous recevrez une confirmation de votre poste de travail et autres d&eacute;tails pertinents dans la avant la course. Nous vous prions de v&eacute;rifier soigneusement vos courriels.</p>
 
 		<p><strong>Si tu as moins de 15 ans</strong>, nous devrons communiquer avec toi pour vérifier la disponibilité des postes vacants correspondants à ton âge.</p>
 
         <p>
-	        <strong>Par courriel</strong>: info@lacoursedeblainville.com<br/>
-            <strong>Par téléphone</strong>: 514 451-0928 (boite vocale)
+	        <strong>Par courriel</strong>: <a href="mailto:info+demimarathon@corsaire-chaparral.org">info+demimarathon@corsaire-chaparral.org</a>
         </p>
         
         <h2>Inscription en ligne</h2>';
@@ -43,18 +40,17 @@ if ($_GET['lang']=='fr') {
         $select3_text='Je suis disponible la veille?';
         $yes_text='oui';
         $no_text='non';
-        $select4_text='Je suis disponible la semaine avant?';
+        $select4_text='Je suis disponible la semaine avant l’événement?';
         $submit_text='Envoyer ma demande';
 }
 else {
 	$title_text='Volunteers';
 	$content_html_text='<p>Register to become a volunteer.</p>
 
-        <p>You will be requested to be available on October 28th, 2018 from 6:00am to 2:00pm depending on your role.  We kindly as that you fill out the online form and submit before October 22nd.  You will be contacted via email the week October 20st where your role and tasks will be given.  If you are under the age of 15, we will ensure that your position reflects your age.</p>
+        <p>You will be requested to be available on 8th, 2019 from 6:00am to 2:00pm depending on your role.  We kindly as that you fill out the online form and submit before October 22nd.  You will be contacted via email where your role and tasks will be given.  If you are under the age of 15, we will ensure that your position reflects your age.</p>
 		
         <p>
-	        <strong>By email</strong>: info@lacoursedeblainville.com<br/>
-            <strong>By phone</strong>: 514 451-0928 (voice mail)
+	        <strong>By email</strong>: <a href="mailto:info+demimarathon@corsaire-chaparral.org">info+demimarathon@corsaire-chaparral.org</a>
         </p>
         
         <h2>Sign up Online</h2>';

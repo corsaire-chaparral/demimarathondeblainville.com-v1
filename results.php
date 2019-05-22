@@ -2,7 +2,7 @@
 $section='results';
 include getenv("DOCUMENT_ROOT")."/includes/header.php";
 if ($_GET['lang']=='fr') {
-	$title_text='RESULTATS';
+	$title_text='RÉSULTATS';
 }
 else {
 	$title_text='RESULTS';
@@ -17,7 +17,8 @@ else {
         <h2>2018</h2>
         
         <ul class="results">
-            <li><a href=" https://www.sportstats.ca/display-results.xhtml?raceid=94627" target="_blank">1km</a> | <a href=" https://www.sportstats.ca/display-results.xhtml?raceid=97990" target="_blank">1km CP</a></li>
+            <li><a href=" https://www.sportstats.ca/display-results.xhtml?raceid=94627" target="_blank">1km</a></li>
+            <li><a href=" https://www.sportstats.ca/display-results.xhtml?raceid=97990" target="_blank">1km CP</a></li>
             <li><a href="https://www.sportstats.ca/display-results.xhtml?raceid=94626" target="_blank">2km</a></li>
             <li><a href="https://www.sportstats.ca/display-results.xhtml?raceid=94625" target="_blank">5km</a></li>
             <li><a href="https://www.sportstats.ca/display-results.xhtml?raceid=94628" target="_blank">5km Marche</a></li>
@@ -45,17 +46,7 @@ else {
             <li><a href="https://www.sportstats.ca/display-results.xhtml?raceid=41304" target="_blank">10km</a></li>
             <li><a href="https://www.sportstats.ca/display-results.xhtml?raceid=31074" target="_blank">Demi-marathon</a></li>
         </ul>
-            
-        <h2>2015</h2>
-        
-        <ul class="results">
-            <li><a href="https://www.sportstats.ca/display-results.xhtml?raceid=28118" target="_blank">1km</a></li>
-            <li><a href="https://www.sportstats.ca/display-results.xhtml?raceid=28117" target="_blank">2km</a></li>
-            <li><a href="https://www.sportstats.ca/display-results.xhtml?raceid=28116" target="_blank">5km Marche</a></li>
-            <li><a href="https://www.sportstats.ca/display-results.xhtml?raceid=28115" target="_blank">5km</a></li>
-            <li><a href="https://www.sportstats.ca/display-results.xhtml?raceid=23366" target="_blank">10km</a></li>
-        </ul>
-            
+
     </div>
 </section>
 

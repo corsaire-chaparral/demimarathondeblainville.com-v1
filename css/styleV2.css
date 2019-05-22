@@ -178,15 +178,11 @@ section.header { padding: 0; }
 
 header {
     width: 100%;
-    float: left;
     margin: 15px 0 0;
     line-height: normal; }
 
-    header .logo { 
-        float: left;
+    header .logo {
         margin: 18px 0 0; }
-
-    header .coch-logo { float: right; }
 
     header a.date, nav#mobile a.date { 
         float: right;
@@ -229,7 +225,6 @@ header {
 /*** NAV ***/
 nav {
     width: 100%;
-    float: left;
     padding: 15px 0;
     margin: 15px 0 0;
     border-top: 1px solid #f1c471;
@@ -238,10 +233,14 @@ nav {
     font-weight: 700;
     text-transform: uppercase; }
 
-    nav ul { float: left; }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
         nav ul li {
-            float: left;
+            display: inline-block;
             position: relative;
             margin: 0 30px 0 0; }
 
@@ -271,13 +270,12 @@ nav a.lang { float: right; }
 
 
 /*** MOBILE NAV ***/
-nav a.mobileNav { 
-    float: left;
+nav a.mobileNav {
     display: none;
     margin: -8px 0;
     line-height: 33px; }
 
-    nav a.mobileNav div {
+    nav a.mobileNav > div {
         width: 30px;
         float: left;
         margin: 0 10px 0 0; }
@@ -353,18 +351,15 @@ video#bgvid {
 section#homeBanner {
     width: 100%;
     height: 100%;
-    float: left;
     position: relative;
     padding: 0;
     overflow: hidden; }
 
     section#homeBanner .content {
-        position: absolute;
-        top: 40%;
-        left: 0;
-        right: 0;
         z-index: 1;
-        text-align: center; }
+        text-align: center;
+        margin-top: 15vh;
+}
 
         section#homeBanner .content h1 { 
             padding: 0;
@@ -377,8 +372,7 @@ section#homeBanner {
             display: block;
             color: #f5c772;
             font-size: 30px;
-            font-weight: normal;
-            font-family: 'citizen_slabregular'; }
+            font-weight: normal; }
 
         section#homeBanner .content a {
             display: inline-block;
@@ -397,7 +391,6 @@ section#homeBanner {
 /*** SECTION ***/
 section {
     width: 100%;
-    float: left;
     padding: 80px 0; }
 
 section.black { background: url(../images/bg.jpg) top center no-repeat; }
@@ -414,6 +407,12 @@ section.black { background: url(../images/bg.jpg) top center no-repeat; }
     margin-right: -16px;
     margin-left: -16px; }
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .col_12 { width: 100%; }
 .col_9 { width: 75%; }
 .col_8 { width: 66.6664%; }
@@ -425,7 +424,6 @@ section.black { background: url(../images/bg.jpg) top center no-repeat; }
 /*** EVENTS LIST ***/
 #eventsList {
     width: 100%;
-    float: left;
     margin: 0 0 65px;
     text-align: center; }
 

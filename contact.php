@@ -3,7 +3,7 @@ $section='contact';
 include getenv("DOCUMENT_ROOT")."/includes/header.php";
 if ($_GET['lang']=='fr') {
 	$title_text='NOUS JOINDRE';
-	$contact_info_text='Les d&eacute;parts et le centre des activit&eacute;s se font &agrave; la Parc &Eacute;questre, au 1025, chemin du Plan-Bouchard, Blainville (Qc)';
+	$contact_info_text='Les d&eacute;parts et le centre des activit&eacute;s se font au Parc &Eacute;questre, au 1025, chemin du Plan-Bouchard, Blainville (Qc) J7C 3B9';
 }
 else {
 	$title_text='CONTACT';
@@ -21,7 +21,7 @@ else {
                     Blainville, Québec<br/>J7B 1S9</p>-->
                 
                 <p>
-	                <strong>E-mail:</strong> <a href="mailto:info@lacoursedeblainville.com">info+demimarathon@corsaire-chaparral.org</a><br/>
+	                <strong>E-mail:</strong> <a href="mailto:info+demimarathon@corsaire-chaparral.org">info+demimarathon@corsaire-chaparral.org</a><br/>
                  </p>
             </div>
             

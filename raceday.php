@@ -6,7 +6,7 @@ if ($_GET['lang']=='fr') {
 	
 	$schedule_subject_change_text='Des modifications peuvent être apportées à l\'horaire ci-dessous.';
     $schedule_notes_text='*Les inscriptions ne seront pas possibles le jour de la course.<br/>';
-    $all_profits_text='Au profit de la Fondation Centre sportif Blainville';
+    $all_profits_text='Au profit de la Fondation Centre sportif de Blainville qui vient en aide aux élèves de la ville de Blainville';
 	$race_takes_place_text='C\'est &agrave; Blainville, &agrave; 20 minutes au nord de Montr&eacute;al, qu\'aura lieu la 4e &eacute;dition du Demi-marathon de Blainville. Notre magnifique parcours dans un secteur r&eacute;sidentiel de prestige vous donnera l\'occasion de participer &agrave; diff&eacute;rentes &eacute;preuves.'; 
     $list_races_text='
         <li>course de 5 km, 10 km et 21km</li>
@@ -221,9 +221,11 @@ else {
                 <div><p class="note"><?php echo $schedule_notes_text; ?></p></div>
             </div>
             
+<!--
             <div id="eventsList">
 	            <a href="/files/Guide-du-spectateur-2017.pdf" target="_blank">Guide Du Spectateur</a>
             </div>
+-->
             
             <div class="col col_6">
                 <h2><?php echo $all_profits_text; ?></h2>
@@ -247,6 +249,14 @@ else {
                 <?php echo $full_category_html_text; ?>
             </div>
             
+        </div>
+        
+        <div class="row">
+            <div class="col col_4">
+                <h2>T-shirt</h2>
+                
+                <p>Le t-shirt n'est pas inclus dans votre inscription, mais vous pouvez vous le proucrer en complément de votre inscription!</p>
+            </div>
         </div>
     </div>
 </section>
