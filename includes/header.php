@@ -93,7 +93,7 @@ session_start();
                 <li><a href="<?php echo $course_url; ?>"><?php echo $course_map_text; ?></a></li>
                 <li><a href="<?php echo $results_url; ?>"><?php echo $results_text; ?></a></li>
                 <li><a href="<?php echo $photos_url; ?>"><?php echo $photos_text; ?></a></li>
-                <li><a href="<?php echo $videos_url; ?>"><?php echo $videos_text; ?></a></li>
+<!--                <li><a href="<?php echo $videos_url; ?>"><?php echo $videos_text; ?></a></li>-->
 <!--                <li><a href="<?php echo $training_url; ?>"><?php echo $training_text; ?></a></li>-->
                 <li><a href="<?php echo $contact_url; ?>"><?php echo $contact_text; ?></a></li>
                 <li><a href="<?php echo $volunteer_url; ?>"><?php echo $volunteer_text; ?></a></li>
