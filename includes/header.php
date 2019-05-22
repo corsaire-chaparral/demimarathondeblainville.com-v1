@@ -71,11 +71,11 @@ session_start();
 <link rel="stylesheet" href="/css/magnific.css" />
 
 <!-- FONTS -->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,300,300italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,300,300italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Cabin:600' rel='stylesheet' type='text/css'>
 
 <!--[if lt IE 9]>
-  <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <script type="text/javascript" src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <script src='https://www.google.com/recaptcha/api.js'></script>
 

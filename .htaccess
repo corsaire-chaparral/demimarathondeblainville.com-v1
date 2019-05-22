@@ -9,7 +9,7 @@ RewriteBase /
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^index\.php$ http://lacoursedeblainville.com/ [R=301,L]
+RewriteRule ^index\.php$ https://lacoursedeblainville.com/ [R=301,L]
 
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^lacoursedeblainville\.com$
