@@ -29,7 +29,12 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
             
             <!-- SCHEDULE OF EVENTS -->
             <div class="col col_6">
-                <h2>Bonne nouvelle!</h2>
+                <h2 class="heading-large">Bonne nouvelle!</h2>
+                
+            </div>
+            
+            <!-- LATEST NEWS -->
+            <div class="col col_6" id="latestNews">
                 
                 <p>
                     Le <strong>Demi-marathon de Blainville</strong> revient pour sa 4e édition!
@@ -40,10 +45,6 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
                 <p>
                     En plus d’offrir de magnifiques parcours de 1 km et 2 km pour les enfants et de 5 km, 10 km et 21 km pour les coureurs de tous les niveaux, de nombreux services seront disponibles: chronométrage par puce, points d’eau sur le parcours, équipe médicale, parcours sécurisés, marquage au km, collation après la course, animation pour les plus petits et de nombreux bénévoles pour assurer la réussite de l’événement!
                 </p>
-            </div>
-            
-            <!-- LATEST NEWS -->
-            <div class="col col_6" id="latestNews">
 <!--
                 <h2><?php echo $latest_news_text; ?></h2>
                 

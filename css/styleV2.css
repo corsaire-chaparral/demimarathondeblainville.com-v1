@@ -139,6 +139,10 @@ h2 {
         font-family: 'citizen_slabregular';
         color: #f5c772; }
 
+h2.heading-large {
+    font-size: 40px;
+}
+
     h2 small { 
         display: block;
         font-size: 0.7em;
@@ -391,7 +395,7 @@ section#homeBanner {
 /*** SECTION ***/
 section {
     width: 100%;
-    padding: 80px 0; }
+    padding: 60px 0; }
 
 section.black { background: url(../images/bg.jpg) top center no-repeat; }
 
