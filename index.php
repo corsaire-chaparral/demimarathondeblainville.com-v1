@@ -44,6 +44,7 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
             
             <!-- LATEST NEWS -->
             <div class="col col_6" id="latestNews">
+<!--
                 <h2><?php echo $latest_news_text; ?></h2>
                 
                 <ul>
@@ -56,23 +57,8 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
                             </div>
                         </div>
                     </li>
-                    <!--<li>
-                        <a href="#"><img src="/images/news2.jpg" class="pic" /></a>
-                        <div class="content">
-                            <span><?php echo $news_2_date_text; ?></span>
-                            <h4><a href="<?php echo $training_url; ?>"><?php echo $news_2_text; ?></a></h4>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#"><img src="/images/news3.jpg" class="pic" /></a>
-                        <div class="content">
-                            <span><?php echo $news_3_date_text; ?></span>
-                            <h4><a href="<?php echo $results_url; ?>"><?php echo $news_3_text; ?></a></h4>
-                        </div>
-                    </li>-->
                 </ul>
-                
-                <!--<a href="#" class="btn"><?php echo $archive_text; ?></a>-->
+-->
             </div>
         </div>
 
