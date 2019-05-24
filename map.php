@@ -24,6 +24,11 @@ else {
             
         <h1><?php echo $title_text; ?></h1>
         
+        <p>
+            Les départs et le centre des activités se font au
+            <strong>Parc Équestre, au 1025, chemin du Plan-Bouchard, Blainville (Qc) J7C 3B9</strong>
+        </p>
+        
         <ul class="results">
             <li><a href="/images/parcours/21km.pdf" target="_blank">Demi-marathon</a></li>
             <li><a href="/images/parcours/10km.pdf" target="_blank">10km</a></li>

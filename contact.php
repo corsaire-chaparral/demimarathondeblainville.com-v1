@@ -21,7 +21,7 @@ else {
                     Blainville, Québec<br/>J7B 1S9</p>-->
                 
                 <p>
-	                <strong>E-mail:</strong> <a href="mailto:info+demimarathon@corsaire-chaparral.org">info+demimarathon@corsaire-chaparral.org</a><br/>
+	                <strong>E-mail:</strong> <a href="mailto:demimarathon@corsaire-chaparral.org">demimarathon@corsaire-chaparral.org</a><br/>
                  </p>
             </div>
             

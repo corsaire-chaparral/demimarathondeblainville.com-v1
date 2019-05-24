@@ -9,7 +9,7 @@ if ($_GET['lang']=='fr') {
     $all_profits_text='Au profit de la Fondation Centre sportif de Blainville qui vient en aide aux élèves de la ville de Blainville';
 	$race_takes_place_text='C\'est &agrave; Blainville, &agrave; 20 minutes au nord de Montr&eacute;al, qu\'aura lieu la 4e &eacute;dition du Demi-marathon de Blainville. Notre magnifique parcours dans un secteur r&eacute;sidentiel de prestige vous donnera l\'occasion de participer &agrave; diff&eacute;rentes &eacute;preuves.'; 
     $list_races_text='
-        <li>course de 5 km, 10 km et 21km</li>
+        <li>Course de 5 km, 10 km et 21km</li>
         <li>Marche de 5 km</li>
         <li>Course de 2 km</li>
         <li>P\'tit marathon de Blainville 1 km</li>';
@@ -208,6 +208,15 @@ else {
     
 <section>
     <div class="wrapper">
+        
+        <div class="content">
+            <p>
+                Inscription 2019 : <br>
+            </p> 
+            <p>
+                <a href="<?php echo $registration_url; ?>" target="_blank" class="big-dashed-cta"><?php echo $register_now2_text; ?></a>
+            </p>
+        </div>
         <div class="row">
             
             <div class="col col_12">

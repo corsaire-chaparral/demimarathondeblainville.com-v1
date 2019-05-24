@@ -43,7 +43,7 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
                     Une même organisation à une toute nouvelle date!
                 </p>
                 <p>
-                    En plus d’offrir de magnifiques parcours de 1 km et 2 km pour les enfants et de 5 km, 10 km et 21 km pour les coureurs de tous les niveaux, de nombreux services seront disponibles: chronométrage par puce, points d’eau sur le parcours, équipe médicale, parcours sécurisés, marquage au km, collation après la course, animation pour les plus petits et de nombreux bénévoles pour assurer la réussite de l’événement!
+                    En plus d’offrir de magnifiques parcours de 1 km et 2 km pour les enfants et de 5 km, 10 km et 21 km pour les coureurs de tous les niveaux, de nombreux services seront disponibles: chronométrage par puce, points d’eau sur le parcours, équipe de premiers soins, parcours sécurisés, marquage au km, collation après la course, animation pour les plus petits et de nombreux bénévoles pour assurer la réussite de l’événement!
                 </p>
 <!--
                 <h2><?php echo $latest_news_text; ?></h2>
@@ -90,6 +90,7 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
 </section>
     
 <!-- PHOTO GALLERY -->
+<!--
 <section id="photoGallery">
     <div class="table">
         <div class="cell">
@@ -98,4 +99,5 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
     </div>
 </section>
     
+-->
 <?php include getenv("DOCUMENT_ROOT")."/includes/footer.php"; ?>

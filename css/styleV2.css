@@ -378,7 +378,7 @@ section#homeBanner {
             font-size: 30px;
             font-weight: normal; }
 
-        section#homeBanner .content a {
+        .big-dashed-cta {
             display: inline-block;
             padding: 15px 5px;
             font-size: 30px;
@@ -387,7 +387,7 @@ section#homeBanner {
             border-top: 2px dashed #e57334;
             border-bottom: 2px dashed #e57334; }
 
-            section#homeBanner .content a:hover {
+            .big-dashed-cta:hover {
                 color: #fff;
                 text-decoration: none; }
 
@@ -778,6 +778,9 @@ footer {
         color: #fff;
     }
 	
+
+.float-left { float: left; }
+.float-right { float: right; }
 	
 /*** MEDIA QUERIES ***/
 @-ms-viewport { width: device-width; }

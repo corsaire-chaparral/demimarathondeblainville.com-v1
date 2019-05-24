@@ -92,11 +92,11 @@ session_start();
                 <li><a href="<?php echo $info_url; ?>"><?php echo $race_day_info_text; ?></a></li>
                 <li><a href="<?php echo $course_url; ?>"><?php echo $course_map_text; ?></a></li>
                 <li><a href="<?php echo $results_url; ?>"><?php echo $results_text; ?></a></li>
-                <li><a href="<?php echo $photos_url; ?>"><?php echo $photos_text; ?></a></li>
+<!--                <li><a href="<?php echo $photos_url; ?>"><?php echo $photos_text; ?></a></li>-->
 <!--                <li><a href="<?php echo $videos_url; ?>"><?php echo $videos_text; ?></a></li>-->
 <!--                <li><a href="<?php echo $training_url; ?>"><?php echo $training_text; ?></a></li>-->
-                <li><a href="<?php echo $contact_url; ?>"><?php echo $contact_text; ?></a></li>
                 <li><a href="<?php echo $volunteer_url; ?>"><?php echo $volunteer_text; ?></a></li>
+                <li><a href="<?php echo $contact_url; ?>"><?php echo $contact_text; ?></a></li>
             </ul>
         </div>
     </div>
@@ -117,11 +117,11 @@ session_start();
                     <li><a href="<?php echo $info_url; ?>"<?php if ($section=='info') echo ' class="active"'; ?>><?php echo $race_day_info_text; ?></a></li>
                     <li><a href="<?php echo $course_url; ?>"<?php if ($section=='course') echo ' class="active"'; ?>><?php echo $course_map_text; ?></a></li>
                     <li><a href="<?php echo $results_url; ?>"<?php if ($section=='results') echo ' class="active"'; ?>><?php echo $results_text; ?></a></li>
-                    <li><a href="<?php echo $photos_url; ?>"<?php if ($section=='photos') echo ' class="active"'; ?>><?php echo $photos_text; ?></a></li>
+<!--                    <li><a href="<?php echo $photos_url; ?>"<?php if ($section=='photos') echo ' class="active"'; ?>><?php echo $photos_text; ?></a></li>-->
 <!--                    <li><a href="<?php echo $videos_url; ?>"<?php if ($section=='videos') echo ' class="active"'; ?>><?php echo $videos_text; ?></a></li>-->
 <!--                    <li><a href="<?php echo $training_url; ?>"<?php if ($section=='training') echo ' class="active"'; ?>><?php echo $training_text; ?></a></li>-->
-                    <li><a href="<?php echo $contact_url; ?>"<?php if ($section=='contact') echo ' class="active"'; ?>><?php echo $contact_text; ?></a></li>
                     <li><a href="<?php echo $volunteer_url; ?>"<?php if ($section=='volunteer') echo ' class="active"'; ?>><?php echo $volunteer_text; ?></a></li>
+                    <li><a href="<?php echo $contact_url; ?>"<?php if ($section=='contact') echo ' class="active"'; ?>><?php echo $contact_text; ?></a></li>
                 </ul>
                 
                 <a href="#" class="mobileNav">
@@ -137,12 +137,12 @@ session_start();
     <?php if ($section=='home') { ?>
     <div class="content">
         <h1><span><?php echo $long_date_text; ?></span>LE DEMI-MARATHON<br/>DE BLAINVILLE</h1>
-        <a href="<?php echo $registration_url; ?>" target="_blank"><?php echo $register_now2_text; ?></a>
+        <a href="<?php echo $registration_url; ?>" target="_blank" class="big-dashed-cta"><?php echo $register_now2_text; ?></a>
     </div>
     
     <!--<video autoplay loop muted poster="images/videoBG_poster.jpg" id="bgvid">-->
     <video autoplay loop muted id="bgvid">
-        <source src="/ideos/blainvilleVideo.webm" type="video/webm">
+        <source src="/videos/blainvilleVideo.webm" type="video/webm">
         <source src="/videos/blainvilleVideo.mp4" type="video/mp4">
     </video>
     <?php } ?>
