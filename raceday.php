@@ -266,7 +266,7 @@ else {
             <div class="col col_6">
                 <h2>T-shirt</h2>
                 
-                <p>Le t-shirt n'est pas inclus dans votre inscription, mais vous pouvez vous le proucrer en complément de votre inscription!</p>
+                <p>Le t-shirt n'est pas inclus dans votre inscription, mais vous pourrez vous le proucrer en complément de votre inscription – détails à venir!</p>
             </div>
             <div class="col col_6">
                 <h2>Plan de commandite</h2>
