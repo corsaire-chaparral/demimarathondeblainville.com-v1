@@ -6,7 +6,8 @@ if ($_GET['lang']=='fr') {
 	
 	$schedule_subject_change_text='Des modifications peuvent être apportées à l\'horaire ci-dessous.';
     $schedule_notes_text='*Les inscriptions ne seront pas possibles le jour de la course.<br/>';
-    $all_profits_text='Au profit de l’organisme Centre sportif Blainville qui depuis 1973 organise des campagnes de financement pour soutenir des projets de la communauté  et qui fournit des paniers d’effets scolaires pour les familles blainvilloises dans le besoin.';
+    $all_profits_text='Au profit de l’organisme Centre sportif Blainville';
+    $race_proits_more_text='L’organisme Centre sportif Blainville organise depuis 1973 des campagnes de financement pour soutenir des projets de la communauté  et qui fournit des paniers d’effets scolaires pour les familles blainvilloises dans le besoin.';
 	$race_takes_place_text='C\'est &agrave; Blainville, &agrave; 20 minutes au nord de Montr&eacute;al, qu\'aura lieu la 4e &eacute;dition du Demi-marathon de Blainville. Notre magnifique parcours dans un secteur r&eacute;sidentiel de prestige vous donnera l\'occasion de participer &agrave; diff&eacute;rentes &eacute;preuves.'; 
     $list_races_text='
         <li>Course de 5 km, 10 km et 21km</li>
@@ -238,6 +239,7 @@ else {
             
             <div class="col col_6">
                 <h2><?php echo $all_profits_text; ?></h2>
+                <p><?php echo $race_proits_more_text; ?></p>
                 <p><?php echo $race_takes_place_text; ?></p>
                 
                 <ul class="list">
@@ -261,12 +263,12 @@ else {
         </div>
         
         <div class="row">
-            <div class="col col_4">
+            <div class="col col_6">
                 <h2>T-shirt</h2>
                 
                 <p>Le t-shirt n'est pas inclus dans votre inscription, mais vous pouvez vous le proucrer en complément de votre inscription!</p>
             </div>
-            <div class="col col_4">
+            <div class="col col_6">
                 <h2>Plan de commandite</h2>
                 
                 <p>Téléchargez le <a href="/files/Plan_Commandite_DMBlainville_2019.pdf">plan de commandite</a></p>
