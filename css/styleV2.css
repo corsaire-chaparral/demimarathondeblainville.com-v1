@@ -215,7 +215,7 @@ header {
         float: left;
         font-size: 24px;
         text-align: left;
-        color: #f1c471; }
+        color: #ffa300; }
 
         header a.date .right span, nav#mobile a.date .right span {
             display: block;
@@ -231,8 +231,8 @@ nav {
     width: 100%;
     padding: 15px 0;
     margin: 15px 0 0;
-    border-top: 1px solid #f1c471;
-    border-bottom: 1px solid #f1c471;
+    border-top: 1px solid #ffa300;
+    border-bottom: 1px solid #ffa300;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase; }
@@ -260,12 +260,12 @@ nav {
                 nav ul li ul li {
                     padding-left: 10px;
                     margin: 0 0 10px;
-                    border-left: 1px solid #f1c471; }
+                    border-left: 1px solid #ffa300; }
 
     nav a:link, nav a:visited { color: #fff; }
 
     nav a:hover { 
-        color: #f1c471;
+        color: #ffa300;
         text-decoration: none; }
 
     nav a.active { color: #ff6900; }
@@ -548,7 +548,7 @@ section.black { background: url(../images/bg.jpg) top center no-repeat; }
         font-family: 'citizen_slabregular'; }
 
         #photoGallery a:hover { 
-            color: #f1c471;
+            color: #ffa300;
             text-decoration: none; }
 
 
