@@ -3,15 +3,7 @@ $section='volunteer';
 include getenv("DOCUMENT_ROOT")."/includes/header.php";
 if ($_GET['lang']=='fr') {
 	$title_text='B&eacute;n&eacute;vole';
-	$content_html_text='<p><strong>Inscrivez-vous en tant que bénévole!</strong> Pour être bénévole, vous devez &ecirc;tre disponible le dimanche 8 septembre 2019 de 6h &agrave; 14h, tout d&eacute;pendamment de votre poste de travail. Vous recevrez une confirmation de votre poste de travail et autres d&eacute;tails pertinents dans la semaine avant la course. Nous vous prions de v&eacute;rifier soigneusement vos courriels.</p>
-
-		<p><strong>Si tu as moins de 15 ans</strong>, nous devrons communiquer avec toi pour vérifier la disponibilité des postes vacants correspondants à ton âge.</p>
-
-        <p>
-	        <strong>Par courriel</strong>: <a href="mailto:demimarathon@corsaire-chaparral.org">demimarathon@corsaire-chaparral.org</a>
-        </p>
-        
-        <h2>Inscription en ligne</h2>';
+	$content_html_text='';
         
         $thanks_text='MERCI!';
         $name_required_text='Pr&eacute;nom, Nom, &Acirc;ge, Courriel et Telephone requis.';
@@ -146,7 +138,20 @@ if(isset($_POST['g-recaptcha-response'])) {
     <div class="wrapper">
             
         <h1><?php echo $title_text; ?></h1>
-        <?php echo $content_html_text; ?>
+
+        <p><strong>Inscrivez-vous en tant que bénévole!</strong> Pour être bénévole, vous devez &ecirc;tre disponible le dimanche 8 septembre 2019 de 6h &agrave; 14h, tout d&eacute;pendamment de votre poste de travail. Vous recevrez une confirmation de votre poste de travail et autres d&eacute;tails pertinents dans la semaine avant la course. Nous vous prions de v&eacute;rifier soigneusement vos courriels.</p>
+
+		<p><strong>Si tu as moins de 15 ans</strong>, nous devrons communiquer avec toi pour vérifier la disponibilité des postes vacants correspondants à ton âge.</p>
+
+        <p>
+	        <strong>Par courriel</strong>: <a href="mailto:demimarathon@corsaire-chaparral.org">demimarathon@corsaire-chaparral.org</a>
+        </p>
+      
+      <p>
+        <a href="https://fichiers.corsaire-chaparral.org/s/cJY6oaijWxo5tS4" target="_blank">Plan des bénévoles</a>
+      </p>
+        
+        <h2>Inscription en ligne</h2>
       
       <script type="text/javascript" src="//campagnes.corsaire-chaparral.org/form/generate.js?id=48"></script>
     </div>
