@@ -146,10 +146,11 @@ if(isset($_POST['g-recaptcha-response'])) {
         <p>
 	        <strong>Par courriel</strong>: <a href="mailto:demimarathon@corsaire-chaparral.org">demimarathon@corsaire-chaparral.org</a>
         </p>
-      
-      <p>
-        <a href="https://fichiers.corsaire-chaparral.org/s/cJY6oaijWxo5tS4" target="_blank">Plan des bénévoles</a>
-      </p>
+      <ul class="results">
+          <li>
+              <a href="https://fichiers.corsaire-chaparral.org/s/cJY6oaijWxo5tS4" target="_blank">Plan des bénévoles</a>
+          </li>
+      </ul>
         
         <h2>Inscription en ligne</h2>
       
