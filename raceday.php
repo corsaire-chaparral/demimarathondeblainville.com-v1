@@ -30,7 +30,7 @@ if ($_GET['lang']=='fr') {
                 
     $full_medals_html_text='
                 <h2>Médailles</h2>
-                <p>Une médaille de participation sera remise aux coureurs et marcheurs des différentes épreuves. Des prix seront offerts aux gagnants uniquement.</p>';
+                <p>Une médaille de participation sera remise aux coureurs et marcheurs des différentes épreuves.</p>';
             
     $full_category_html_text='
                 <h2>Catégories d\'âge par course</h2>
@@ -266,7 +266,7 @@ else {
             <div class="col col_6">
                 <h2>T-shirt</h2>
                 
-                <p>Le t-shirt n'est pas inclus dans votre inscription, mais vous pourrez vous le proucrer en complément de votre inscription – détails à venir!</p>
+                <p>Le t-shirt n'est pas inclus dans votre inscription, mais vous pourrez vous le procurer en complément de votre inscription – détails à venir!</p>
             </div>
             <div class="col col_6">
                 <h2>Plan de commandite</h2>
