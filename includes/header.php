@@ -31,8 +31,8 @@ session_start();
     $volunteer_url='/fr/Benevoles/';
     
     $full_schedule_of_events_text='<li>
-                        <div class="time">7h00</div>
-                        <div class="content">Remises des trousses des coureurs</div>
+                        <div class="time">Dès 7h00</div>
+                        <div class="content">Remise des trousses des coureurs</div>
                     </li>
                     <li>
                         <div class="time">7h45</div>
