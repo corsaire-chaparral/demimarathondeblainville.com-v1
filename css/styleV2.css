@@ -407,6 +407,9 @@ section.black { background: url(../images/bg.jpg) top center no-repeat; }
     padding-left: 16px;
     padding-bottom: 2em; }
 
+.col.-no-padding-bottom {
+  padding-bottom: 0; }
+
 .row {
     margin-right: -16px;
     margin-left: -16px; }
@@ -869,6 +872,51 @@ footer {
     
     .photoGallery img { width: 50%; }
     
+}
+
+/*** Chandail ***/
+
+.text-secondary {
+  color: #ff6a30;
+}
+.text-secondary {
+  color: #ff6900;
+}
+
+.product {
+  
+}
+
+.button {
+  padding: .5em 1em;
+  border-radius: 3px;
+  border: 2px dashed #ff6a30;
+  background-color: transparent;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button.-is-block {
+  display: block;
+  width: 100%;
+}
+
+.button[disabled],
+.button.disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+.product-thumbnail {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 3em;
+  background-color: #fff;
+  border-radius: 4px;
 }
 
 

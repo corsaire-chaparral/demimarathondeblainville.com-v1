@@ -264,14 +264,21 @@ else {
         
         <div class="row">
             <div class="col col_6">
-                <h2>T-shirt</h2>
-                
-                <p>Le t-shirt n'est pas inclus dans votre inscription, mais vous pourrez vous le procurer en complément de votre inscription – détails à venir!</p>
+              <!-- SNIPCART -->
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+              <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MDc1MzJkZWEtOWI2Ny00ZTRkLWJlMDktZDc0MDI5YWRhMGRhNjM2NzExODEyNTE0MzM0OTk4" id="snipcart"></script>
+
+              <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+
+              <h2>T-shirt</h2>
+
+              <p>Le t-shirt n'est pas inclus dans votre inscription, mais vous pourrez vous le procurer en complément de votre inscription – détails à venir!</p>
             </div>
             <div class="col col_6">
-                <h2>Plan de commandite</h2>
-                
-                <p>Téléchargez le <a href="/files/Plan_Commandite_DMBlainville_2019.pdf">plan de commandite</a></p>
+              <h2>Plan de commandite</h2>
+
+              <p>Téléchargez le <a href="/files/Plan_Commandite_DMBlainville_2019.pdf">plan de commandite</a></p>
             </div>
         </div>
     </div>
