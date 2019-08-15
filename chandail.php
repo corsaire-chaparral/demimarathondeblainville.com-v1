@@ -153,6 +153,8 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                   </div>
                 </fieldset>
               </form>
+
+              <p>À récupérer avec votre trousse du coureur le samedi 7 septembre de 10h à 16h, ou le jour de la course.</p>
             </div>
             <div class="col col_6">
               <img class="product-thumbnail"

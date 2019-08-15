@@ -92,12 +92,13 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
       
       <div class="row">
         <div class="col col_4">
-              <h3>Chandail</h3>
-              <p><strong>Procurez-vous le T-shirt officiel de l'événement, en prévent dès maintenant!</strong></p>
-              <p>100% tissu respirant synthétique, procurant confort et légèreté!</p>
-              <p>Choisissez votre grandeur préférée, en coupe femme ou homme!</p>
-              
-              <a class="button" href="/fr/Chandail/">Acheter</a>
+          <h3>Chandail</h3>
+          <p><strong>Procurez-vous le T-shirt officiel de l'événement, en prévent dès maintenant!</strong></p>
+          <p>100% tissu respirant synthétique, procurant confort et légèreté!</p>
+          <p>Choisissez votre grandeur préférée, en coupe femme ou homme!</p>
+          <p class="text-secondary"><strong>Date limite : 18 août 2019</strong></p>
+          
+          <a class="button" href="/fr/Chandail/">Acheter</a>
         </div>
 
         <div class="col col_8">
