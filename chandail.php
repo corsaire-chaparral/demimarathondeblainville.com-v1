@@ -61,7 +61,7 @@ include getenv("DOCUMENT_ROOT")."/includes/header.php";
                       data-item-id="chandail-femme-xs"
                       data-item-name="Chandail – Femme – XS"
                       data-item-price="15.00"
-                      data-item-url="https://demimarathondeblainville.com"
+                      data-item-url="https://demimarathondeblainville.com/fr/Chandail/"
                       data-item-description="Chandail officiel - Précommande">
                           Ajouter
                     </button>
