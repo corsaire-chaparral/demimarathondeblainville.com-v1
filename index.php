@@ -45,6 +45,7 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
                 <p>
                     En plus d’offrir de magnifiques parcours de 1 km et 2 km pour les enfants et de 5 km, 10 km et 21 km pour les coureurs de tous les niveaux, de nombreux services seront disponibles: chronométrage par puce, points d’eau sur le parcours, équipe de premiers soins, parcours sécurisés, marquage au km, collation après la course, animation pour les plus petits et de nombreux bénévoles pour assurer la réussite de l’événement!
                 </p>
+              
 <!--
                 <h2><?php echo $latest_news_text; ?></h2>
                 
@@ -86,6 +87,23 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
                 
             </div>
         </div>
+          <hr>
+              <br>
+      
+      <div class="row">
+        <div class="col col_4">
+              <h3>Chandail</h3>
+              <p><strong>Procurez-vous le T-shirt officiel de l'événement, en prévent dès maintenant!</strong></p>
+              <p>100% tissu respirant synthétique, procurant confort et légèreté!</p>
+              <p>Choisissez votre grandeur préférée, en coupe femme ou homme!</p>
+              
+              <a class="button" href="/fr/Chandail/">Acheter</a>
+        </div>
+
+        <div class="col col_8">
+          <img class="product-thumbnail" src="/images/chandail-apercu.jpg" alt="T-shirt officiel">
+        </div>
+      </div>
     </div>
 </section>
     
