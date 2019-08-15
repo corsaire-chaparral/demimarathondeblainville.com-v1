@@ -52,12 +52,11 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                     </div>
                   </div>
 
-                  <div class="add-button-container">
+                  <div class="add-button-container" id="add-button-container">
                     <noscript>
                       Javascript doit être activé pour utiliser cette fonctionnalité.
                     </noscript>
                     <button
-                      id="add-button"
                       class="button -is-block snipcart-add-item"
                       data-item-id="chandail-femme-xs"
                       data-item-name="Chandail – Femme – XS"
@@ -69,7 +68,6 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                     
                     <div role="template" hidden>
                     <button
-                      id="add-button"
                       class="button -is-block snipcart-add-item"
                       data-item-id="chandail-femme-xs"
                       data-item-name="Chandail – Femme – XS"
@@ -79,7 +77,6 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                           Ajouter
                     </button>
                     <button
-                      id="add-button"
                       class="button -is-block snipcart-add-item"
                       data-item-id="chandail-femme-s"
                       data-item-name="Chandail – Femme – S"
@@ -89,7 +86,6 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                           Ajouter
                     </button>
                     <button
-                      id="add-button"
                       class="button -is-block snipcart-add-item"
                       data-item-id="chandail-femme-m"
                       data-item-name="Chandail – Femme – M"
@@ -99,7 +95,6 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                           Ajouter
                     </button>
                     <button
-                      id="add-button"
                       class="button -is-block snipcart-add-item"
                       data-item-id="chandail-femme-l"
                       data-item-name="Chandail – Femme – L"
@@ -109,7 +104,6 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                           Ajouter
                     </button>
                     <button
-                      id="add-button"
                       class="button -is-block snipcart-add-item"
                       data-item-id="chandail-femme-xl"
                       data-item-name="Chandail – Femme – XL"
@@ -119,7 +113,6 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                           Ajouter
                     </button>
                     <button
-                      id="add-button"
                       class="button -is-block snipcart-add-item"
                       data-item-id="chandail-homme-s"
                       data-item-name="Chandail – Homme – S"
@@ -129,7 +122,6 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                           Ajouter
                     </button>
                     <button
-                      id="add-button"
                       class="button -is-block snipcart-add-item"
                       data-item-id="chandail-homme-m"
                       data-item-name="Chandail – Homme – M"
@@ -139,7 +131,6 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                           Ajouter
                     </button>
                     <button
-                      id="add-button"
                       class="button -is-block snipcart-add-item"
                       data-item-id="chandail-homme-l"
                       data-item-name="Chandail – Homme – L"
@@ -149,7 +140,6 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                           Ajouter
                     </button>
                     <button
-                      id="add-button"
                       class="button -is-block snipcart-add-item"
                       data-item-id="chandail-homme-xl"
                       data-item-name="Chandail – Homme – XL"
@@ -184,7 +174,7 @@ include getenv("DOCUMENT_ROOT")."/config.php";
 <script>
   // Change add-to-cart button attributes on select
   var selectElem = document.getElementById('product-select');
-  var buttonElem = document.getElementById('add-button')
+  var buttonElem = document.getElementById('add-button-container').querySelector('button');
 
   // Bind events on the elem
   // This is IE 9+
