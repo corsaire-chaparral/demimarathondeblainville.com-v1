@@ -66,7 +66,7 @@ include getenv("DOCUMENT_ROOT")."/includes/header.php";
                           Ajouter
                     </button>
                     
-                    <script type="text/template">
+                    <div role="template" hidden>
                     <button
                       id="add-button"
                       class="button -is-block snipcart-add-item"
@@ -157,7 +157,7 @@ include getenv("DOCUMENT_ROOT")."/includes/header.php";
                       data-item-description="Chandail officiel - Précommande">
                           Ajouter
                     </button>
-                    </script>
+                    </div>
 
                   </div>
                 </fieldset>
