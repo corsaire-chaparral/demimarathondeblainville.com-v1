@@ -20,7 +20,7 @@ include getenv("DOCUMENT_ROOT")."/config.php";
               <h1><?php echo $title_text; ?></h1>
               
               <p>
-                <span class="text-secondary">&rarr; Précommandez jusqu’au 19 août!</span>
+                <span class="text-secondary">&rarr; Précommandez jusqu’au 18 août!</span>
               </p>
 
               <p>
