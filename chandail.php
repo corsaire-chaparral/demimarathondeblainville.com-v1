@@ -58,12 +58,93 @@ include getenv("DOCUMENT_ROOT")."/includes/header.php";
                     <button
                       id="add-button"
                       class="button -is-block snipcart-add-item"
-                      data-item-id="chandail-f-xs"
+                      data-item-id="chandail-femme-xs"
                       data-item-name="Chandail – Femme – XS"
                       data-item-price="15.00"
-                      data-item-weight="10"
                       data-item-url="https://demimarathondeblainville.com/fr/Chandail/"
-                      data-item-description="Chandail officile - Précommande">
+                      data-item-description="Chandail officiel - Précommande">
+                          Ajouter
+                    </button>
+                    
+                    
+                    <button
+                      id="add-button"
+                      class="button -is-block snipcart-add-item"
+                      data-item-id="chandail-femme-s"
+                      data-item-name="Chandail – Femme – S"
+                      data-item-price="15.00"
+                      data-item-url="https://demimarathondeblainville.com/fr/Chandail/"
+                      data-item-description="Chandail officiel - Précommande">
+                          Ajouter
+                    </button>
+                    <button
+                      id="add-button"
+                      class="button -is-block snipcart-add-item"
+                      data-item-id="chandail-femme-m"
+                      data-item-name="Chandail – Femme – M"
+                      data-item-price="15.00"
+                      data-item-url="https://demimarathondeblainville.com/fr/Chandail/"
+                      data-item-description="Chandail officiel - Précommande">
+                          Ajouter
+                    </button>
+                    <button
+                      id="add-button"
+                      class="button -is-block snipcart-add-item"
+                      data-item-id="chandail-femme-l"
+                      data-item-name="Chandail – Femme – L"
+                      data-item-price="15.00"
+                      data-item-url="https://demimarathondeblainville.com/fr/Chandail/"
+                      data-item-description="Chandail officiel - Précommande">
+                          Ajouter
+                    </button>
+                    <button
+                      id="add-button"
+                      class="button -is-block snipcart-add-item"
+                      data-item-id="chandail-femme-xl"
+                      data-item-name="Chandail – Femme – XL"
+                      data-item-price="15.00"
+                      data-item-url="https://demimarathondeblainville.com/fr/Chandail/"
+                      data-item-description="Chandail officiel - Précommande">
+                          Ajouter
+                    </button>
+                    <button
+                      id="add-button"
+                      class="button -is-block snipcart-add-item"
+                      data-item-id="chandail-homme-s"
+                      data-item-name="Chandail – Homme – S"
+                      data-item-price="15.00"
+                      data-item-url="https://demimarathondeblainville.com/fr/Chandail/"
+                      data-item-description="Chandail officiel - Précommande">
+                          Ajouter
+                    </button>
+                    <button
+                      id="add-button"
+                      class="button -is-block snipcart-add-item"
+                      data-item-id="chandail-homme-m"
+                      data-item-name="Chandail – Homme – M"
+                      data-item-price="15.00"
+                      data-item-url="https://demimarathondeblainville.com/fr/Chandail/"
+                      data-item-description="Chandail officiel - Précommande">
+                          Ajouter
+                    </button>
+                    <button
+                      id="add-button"
+                      class="button -is-block snipcart-add-item"
+                      data-item-id="chandail-homme-l"
+                      data-item-name="Chandail – Homme – L"
+                      data-item-price="15.00"
+                      data-item-url="https://demimarathondeblainville.com/fr/Chandail/"
+                      data-item-description="Chandail officiel - Précommande">
+                          Ajouter
+                    </button>
+                    <button
+                      id="add-button"
+                      class="button -is-block snipcart-add-item"
+                      data-item-id="chandail-homme-xl"
+                      data-item-name="Chandail – Homme – XL"
+                      data-item-price="15.00"
+                      data-item-url="https://demimarathondeblainville.com/fr/Chandail/"
+                      data-item-description="Chandail officiel - Précommande">
                           Ajouter
                     </button>
 
