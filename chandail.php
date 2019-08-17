@@ -30,8 +30,6 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                 <br><small>*Également disponible à 20,00$ sur place. Quantités limitées. Réservez le vôtre dès maintenant!</small>
               </p>
               
-              <p>À récupérer avec votre trousse du coureur le samedi 7 septembre de 10h à 16h, ou le jour de la course.</p>
-              
               <form>
                 <fieldset>
                   <div class="row">
@@ -53,6 +51,8 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                       </div>
                     </div>
                   </div>
+
+                  <p>À récupérer avec votre trousse du coureur le samedi 7 septembre de 10h à 16h, ou le jour de la course.</p>
 
                   <div class="add-button-container" id="add-button-container">
                     <noscript>
