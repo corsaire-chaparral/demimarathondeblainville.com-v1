@@ -93,12 +93,11 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
       <div class="row">
         <div class="col col_4">
           <h3>Chandail</h3>
-          <p><strong>Procurez-vous le T-shirt officiel de l'événement, en prévente dès maintenant!</strong></p>
+          <p><del>Procurez-vous le T-shirt officiel de l'événement, en prévente dès maintenant!</del> 
+            <br><strong>&rarr; Prévente terminée. Achetez le vôtre sur place au prix de 25,00$ (argent comptant seulement).</strong></p>
           <p>100% tissu respirant synthétique, procurant confort et légèreté!</p>
           <p>Choisissez votre grandeur préférée, en coupe femme ou homme!</p>
-          <p class="text-secondary"><strong>Date limite : 18 août 2019</strong></p>
-          
-          <a class="button" href="/fr/Chandail/">Acheter</a>
+          <p>À récupérer avec votre trousse du coureur le samedi 7 septembre de 10h à 16h, ou le jour de la course.</p>
         </div>
 
         <div class="col col_8">

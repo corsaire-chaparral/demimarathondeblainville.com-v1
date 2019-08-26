@@ -20,16 +20,20 @@ include getenv("DOCUMENT_ROOT")."/config.php";
               <h1><?php echo $title_text; ?></h1>
               
               <p>
-                <span class="text-secondary">&rarr; Précommandez jusqu’au 18 août!</span>
+                <span class="text-secondary"><del>Précommandez jusqu’au 18 août!</del></span>
               </p>
 
               <p>
                 Prix :
-                <strong>15,00$</strong>
-
-                <br><small>*Également disponible à 20,00$ sur place. Quantités limitées. Réservez le vôtre dès maintenant!</small>
+                <strong><del>15,00$</del></strong> &rarr; Sera disponible à 25,00$ sur place.
               </p>
               
+              <p>Tailles disponibles :</p>
+              <ul>
+                <li><strong>Femme</strong> : XS, S, M, L, XL</li>
+                <li><strong>Homme</strong> : S, M, L, XL</li>
+              </ul>
+              <!--
               <form>
                 <fieldset>
                   <div class="row">
@@ -155,7 +159,7 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                   </div>
                 </fieldset>
               </form>
-
+-->
             </div>
             <div class="col col_6">
               <img class="product-thumbnail"
