@@ -720,7 +720,7 @@ footer {
     width: 100%;
     float: left;
     padding: 80px 0;
-    background: url(../images/footer_bg.jpg) top center repeat-x #ff6900;
+    background: url(../images/footer_bg.jpg) top center repeat #ff6900;
     color: #fff; }
 
     footer #sponsors {
