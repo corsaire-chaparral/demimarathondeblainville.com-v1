@@ -212,11 +212,12 @@ else {
         
         <div class="content">
             <p>
-                Inscription 2019 : <br>
+                Inscription en ligne (jusqu’au 6 septembre à 23h59) : <br>
             </p> 
             <p>
                 <a href="<?php echo $registration_url; ?>" target="_blank" class="big-dashed-cta"><?php echo $register_now2_text; ?></a>
             </p>
+          <div><p class="note"><?php echo $schedule_notes_text; ?></p></div>
         </div>
         <div class="row">
             
@@ -224,11 +225,8 @@ else {
                 <h1><?php echo $title_text; ?></h1>
                 <p><?php echo $schedule_subject_change_text; ?></p>
                 
-                <ul id="schedule" class="raceDay">
-                    <?php echo $full_schedule_of_events_text; ?>
-                </ul>
-                
-                <div><p class="note"><?php echo $schedule_notes_text; ?></p></div>
+
+                <?php echo $full_schedule_of_events_text; ?>
             </div>
             
 <!--

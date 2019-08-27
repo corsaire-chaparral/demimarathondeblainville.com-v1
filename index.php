@@ -25,16 +25,41 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
     
 <section class="black">
     <div class="wrapper">
+      <div id="eventsList" class="row">
+            <ul>
+                <li><?php echo $event1_text; ?></li>
+                <li>/</li>
+                <li><?php echo $event2_text; ?></li>
+                <li>/</li>
+                <li><?php echo $event3_text; ?></li>
+                <li>/</li>
+                <li><?php echo $event4_text; ?></li>
+                <li>/</li>
+                <li><?php echo $event5_text; ?></li>
+                <li>/</li>
+                <li><?php echo $event6_text; ?></li>
+            </ul>
+            
+            <div>
+                <a href="<?php echo $course_url; ?>"><?php echo $course_map_text; ?></a>
+                <a href="<?php echo $registration_url; ?>" target="_blank"><?php echo strtoupper($register_text); ?></a>
+                <a href="<?php echo $info_url; ?>"><?php echo strtoupper($more_info_text); ?></a>
+<!--                <a href="javascript:void()" target="_blank">Guide Du Spectateur <em>(à venir)</em></a>-->
+                
+            </div>
+        </div>
+
         <div class="row">
             
             <!-- SCHEDULE OF EVENTS -->
             <div class="col col_6">
-                <h2 class="heading-large">Bonne nouvelle!</h2>
-                
+                <h2 class="heading-large">Horaire de la journée</h2>
+                <?php echo $full_schedule_of_events_text; ?>
             </div>
             
             <!-- LATEST NEWS -->
             <div class="col col_6" id="latestNews">
+                <h2 class="heading-large">À propos de l’événement</h2>
                 
                 <p>
                     Le <strong>Demi-marathon de Blainville</strong> revient pour sa 4e édition!
@@ -64,30 +89,8 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
             </div>
         </div>
 
-        <div id="eventsList" class="row">
-            <ul>
-                <li><?php echo $event1_text; ?></li>
-                <li>/</li>
-                <li><?php echo $event2_text; ?></li>
-                <li>/</li>
-                <li><?php echo $event3_text; ?></li>
-                <li>/</li>
-                <li><?php echo $event4_text; ?></li>
-                <li>/</li>
-                <li><?php echo $event5_text; ?></li>
-                <li>/</li>
-                <li><?php echo $event6_text; ?></li>
-            </ul>
-            
-            <div>
-                <a href="<?php echo $course_url; ?>"><?php echo $course_map_text; ?></a>
-                <a href="<?php echo $registration_url; ?>" target="_blank"><?php echo strtoupper($register_text); ?></a>
-                <a href="<?php echo $info_url; ?>"><?php echo strtoupper($more_info_text); ?></a>
-<!--                <a href="javascript:void()" target="_blank">Guide Du Spectateur <em>(à venir)</em></a>-->
-                
-            </div>
-        </div>
           <hr>
+              <br>
               <br>
       
       <div class="row">

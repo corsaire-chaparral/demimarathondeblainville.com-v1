@@ -84,6 +84,10 @@ blockquote, q { quotes: "" ""; }
 
 strong { font-weight: 700; }
 
+.large-texte {
+  font-size: 1.35em;
+}
+
 /*** FONT STYLES ***/
 @font-face {
     font-family: 'kelson';
@@ -460,27 +464,27 @@ section.black { background: url(../images/bg.jpg) top center no-repeat; }
 
 
 /*** SCHEDULE OF EVENTS ***/
-#schedule li {
+.schedule-list li {
     width: 100%;
     float: left;
     margin: 0 0 23px; }
 
-    #schedule .time {
+    .schedule-list .time {
         width: 80px;
         float: left;
         margin: 0 15px 0 0;
         text-align: right;
         color: #ff6900; }
 
-    #schedule .content { overflow: hidden; }
+    .schedule-list .content { overflow: hidden; }
 
-#schedule.raceDay { 
+.schedule-list.raceDay { 
     width: 100%;
     float: left;
     margin-bottom: 20px;
     font-size: 18px; }
 
-    #schedule.raceDay .time { width: 110px; }
+    .schedule-list.raceDay .time { width: 110px; }
 
 .note {
     font-style: italic;
@@ -868,9 +872,9 @@ footer {
         height: 300px;
         font-size: 35px; }
     
-    #schedule.raceDay { font-size: 14px; }
+    .schedule-list.raceDay { font-size: 14px; }
     
-        #schedule.raceDay .time { width: 80px; }
+        .schedule-list.raceDay .time { width: 80px; }
     
     #courseAges .course { width: 50%; }
     

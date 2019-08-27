@@ -30,7 +30,22 @@ session_start();
     $contact_url='/fr/Contact/';
     $volunteer_url='/fr/Benevoles/';
     
-    $full_schedule_of_events_text='<li>
+    $full_schedule_of_events_text='
+    <p class="large-texte">Évitez la file et venez récupérer votre dossard le samedi!</p>
+                  <h3>Samedi 7 septembre 2019</h3>
+                  <ul id="horaire-samedi" class="schedule-list raceDay">
+                    <li>
+                        <div class="time">10h-16h</div>
+                        <div class="content">
+                        Remise des trousses des coureurs au parc Équestre
+                        <div class="note"><p>
+                        </div>
+                    </li>
+                  </ul>
+
+                  <h3>Dimanche 8 septembre 2019</h3>
+                  <ul id="horaire-dimanche" class="schedule-list raceDay">
+                    <li>
                         <div class="time">Dès 7h00</div>
                         <div class="content">Remise des trousses des coureurs</div>
                     </li>
@@ -44,7 +59,7 @@ session_start();
                     </li>
                     <li>
                         <div class="time">11h10</div>
-                        <div class="content">D&eacute;part de la course de 2km</div>
+                        <div class="content">D&eacute;part de la course de 2km et 5km marche</div>
                     </li>
                     <li>
                         <div class="time">11h40</div>
@@ -56,8 +71,9 @@ session_start();
                     </li>
                     <li>
                         <div class="time">12h10</div>
-                        <div class="content">D&eacute;part du 5km course et marche</div>
-                    </li>';
+                        <div class="content">D&eacute;part du 5km course</div>
+                    </li>
+                  </ul>';
 ?>
 <!DOCTYPE html>
 <html lang="fr">
