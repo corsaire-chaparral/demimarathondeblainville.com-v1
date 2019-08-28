@@ -28,23 +28,64 @@ else {
             Les départs et le centre des activités se font au
             <strong>Parc Équestre, au 1025, chemin du Plan-Bouchard, Blainville (Qc) J7C 3B9</strong>
         </p>
+        <p>
+          Téléchargements PDF :
+        </p>
         
         <ul class="results">
-            <li><a href="/files/cartes-parcours/21km-compressed.pdf" target="_blank">Demi-marathon</a></li>
+            <li><a href="/files/cartes-parcours/21km-compressed.pdf" target="_blank">Demi-marathon (21,1km)</a></li>
             <li><a href="/files/cartes-parcours/10km-compressed.pdf" target="_blank">10km</a></li>
             <li><a href="/files/cartes-parcours/5km-compressed.pdf" target="_blank">5km</a></li>
-            <li><a href="/files/cartes-parcours/5km-compressed.pdf" target="_blank">5km Marche</a></li>
             <li><a href="/files/cartes-parcours/2km-compressed.pdf" target="_blank">2km</a></li>
             <li><a href="/files/cartes-parcours/1km-compressed.pdf" target="_blank">1km</a></li>
         </ul>
         
         <ul class="results">
-            <li><a href="/files/cartes-parcours/manege_depart_arrivee.pdf" target="_blank">Plan agrandi départ/arrivée</a></li>
+            <li><a href="/files/cartes-parcours/plan-technique-2019-08-27.pdf" target="_blank">Plan technique</a></li>
             <li><a href="/files/cartes-parcours/demi-marathon_de_Blainville_denivele_2019-compressed.pdf" target="_blank">Plan du dénivelé</a></li>
+            <li><a href="/files/cartes-parcours/localisation-toilettes-chimiques.pdf" target="_blank">Emplacements des toilettes chimiques</a></li>
         </ul>
-            
+      
+      
+        <p>
+          Images :
+        </p>
+
+      
+      <p>
+        <a href="/files/cartes-parcours/1km-large.jpg" class="mfp-image">
+          <img src="/files/cartes-parcours/1km-large.jpg" class="map" />
+        </a>
+      </p>
+      <p>
+        <a href="/files/cartes-parcours/2km-large.jpg" class="mfp-image">
+          <img src="/files/cartes-parcours/2km-large.jpg" class="map" />
+        </a>
+      </p>
+      <p>
+        <a href="/files/cartes-parcours/5km-large.jpg" class="mfp-image">
+          <img src="/files/cartes-parcours/5km-large.jpg" class="map" />
+        </a>
+      </p>
+      <p>
+        <a href="/files/cartes-parcours/10km-large.jpg" class="mfp-image">
+          <img src="/files/cartes-parcours/10km-large.jpg" class="map" />
+        </a>
+      </p>
+      <p>
+        <a href="/files/cartes-parcours/21km-large.jpg" class="mfp-image">
+          <img src="/files/cartes-parcours/21km-large.jpg" class="map" />
+        </a>
+      </p>
+      <p>
+        <a href="/files/cartes-parcours/2km-large.jpg" class="mfp-image">
+          <img src="/files/cartes-parcours/2km-large.jpg" class="map" />
+        </a>
+      </p>
+      
+      
         
-        <!--<p><a href="/images/LacoursedeBlainvilletouslesparcours2017.pdf" class="mfp-image"><img src="/images/courseMap2017_1.jpg" class="map" /></a></p>
+        <!--
         
         <p><a href="/images/LacoursedeBlainvilletouslesparcours2017.pdf" class="mfp-image"><img src="/images/courseMap2017_2.jpg" class="map" /></a></p>
         

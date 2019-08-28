@@ -93,7 +93,7 @@ session_start();
 <!--[if lt IE 9]>
   <script type="text/javascript" src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
 
 </head>
 <body<?php if ($section=='info') echo ' class="bg2"'; else if ($section=='course') echo ' class="bg3"'; else if ($section=='results') echo ' class="bg4"'; else if ($section=='photos') echo ' class="bg5"'; else if ($section=='videos') echo ' class="bg6"'; else if ($section=='training') echo ' class="bg7"'; else if ($section=='contact' || $section=='volunteer') echo ' class="bg8"'; ?>>
