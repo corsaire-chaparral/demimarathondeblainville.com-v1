@@ -43,7 +43,7 @@ else {
         <ul class="results">
             <li><a href="/files/cartes-parcours/plan-technique-2019-08-27.pdf" target="_blank">Plan technique</a></li>
             <li><a href="/files/cartes-parcours/demi-marathon_de_Blainville_denivele_2019-compressed.pdf" target="_blank">Plan du dénivelé</a></li>
-            <li><a href="/files/cartes-parcours/localisation-toilettes-chimiques.pdf" target="_blank">Emplacements des toilettes chimiques</a></li>
+            <li><a href="/files/cartes-parcours/localisation-toilettes-chimiques.pdf" target="_blank">Emplacements des toilettes</a></li>
         </ul>
       
       
