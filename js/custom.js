@@ -2,12 +2,12 @@ $(document).ready(function(){
     
     //MOBILE NAV
     $('nav a.mobileNav').click(function(){
-        $('nav#mobile').fadeIn();
+        $('#mobile').fadeIn();
         return false;
     });
     
     $('nav#mobile a.close').click(function(){
-        $('nav#mobile').fadeOut();
+        $('#mobile').fadeOut();
         return false;
     });
     
