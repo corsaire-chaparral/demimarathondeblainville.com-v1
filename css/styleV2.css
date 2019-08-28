@@ -361,7 +361,7 @@ section#homeBanner {
     min-height: 100%;
     position: relative;
     padding: 0 0 40px;
-/*    overflow: hidden;*/
+    overflow: hidden;
 }
 
     section#homeBanner .content {
