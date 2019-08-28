@@ -270,7 +270,7 @@ else {
 </footer>
 
 <!-- JQUERY -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/js/jquery.min.js"></script>
 <script src="/js/retina.min.js"></script>
 <script src="/js/magnific.js"></script>
 <script src="/js/custom.js"></script>
