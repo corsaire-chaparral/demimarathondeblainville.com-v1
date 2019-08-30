@@ -43,6 +43,7 @@ $news_3_text='Les r&eacute;sultats de la course 2016 sont maintenant disponibles
             <div>
                 <a href="<?php echo $course_url; ?>"><?php echo $course_map_text; ?></a>
                 <a href="<?php echo $registration_url; ?>" target="_blank"><?php echo strtoupper($register_text); ?></a>
+                <a href="/files/VF_Guide_du_spectateur_2019.pdf" target="_blank">Guide du spectateur</a>
                 <a href="<?php echo $info_url; ?>"><?php echo strtoupper($more_info_text); ?></a>
 <!--                <a href="javascript:void()" target="_blank">Guide Du Spectateur <em>(à venir)</em></a>-->
                 
