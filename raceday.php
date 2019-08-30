@@ -229,11 +229,9 @@ else {
                 <?php echo $full_schedule_of_events_text; ?>
             </div>
             
-<!--
             <div id="eventsList">
-	            <a href="/files/Guide-du-spectateur-2017.pdf" target="_blank">Guide Du Spectateur</a>
+	            <a href="/files/VF_Guide_du_spectateur_2019.pdf" target="_blank">Guide du spectateur</a>
             </div>
--->
             
             <div class="col col_6">
                 <h2><?php echo $all_profits_text; ?></h2>

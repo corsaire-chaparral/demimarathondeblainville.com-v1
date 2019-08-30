@@ -148,7 +148,8 @@ if(isset($_POST['g-recaptcha-response'])) {
         </p>
       <ul class="results">
           <li>
-              <a href="https://fichiers.corsaire-chaparral.org/s/cJY6oaijWxo5tS4" target="_blank">Plan des bénévoles</a>
+              <a href="/files/VF_Guide_du_benevole_2019.pdf" target="_blank">Guide des bénévoles</a>
+              <a href="/files/VF_Guide_du_lapin_2019.pdf" target="_blank">Guide des lapins</a>
           </li>
       </ul>
         
