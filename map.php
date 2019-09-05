@@ -53,27 +53,27 @@ else {
 
       
       <p>
-        <a href="/files/cartes-parcours/1km-large.jpg" class="mfp-image">
+        <a href="/files/cartes-parcours/1km-large.jpg" target="_blank">
           <img src="/files/cartes-parcours/1km-small.jpg" class="map" />
         </a>
       </p>
       <p>
-        <a href="/files/cartes-parcours/2km-large.jpg" class="mfp-image">
+        <a href="/files/cartes-parcours/2km-large.jpg" target="_blank">
           <img src="/files/cartes-parcours/2km-small.jpg" class="map" />
         </a>
       </p>
       <p>
-        <a href="/files/cartes-parcours/5km-large.jpg" class="mfp-image">
+        <a href="/files/cartes-parcours/5km-large.jpg" target="_blank">
           <img src="/files/cartes-parcours/5km-small.jpg" class="map" />
         </a>
       </p>
       <p>
-        <a href="/files/cartes-parcours/10km-large.jpg" class="mfp-image">
+        <a href="/files/cartes-parcours/10km-large.jpg" target="_blank">
           <img src="/files/cartes-parcours/10km-small.jpg" class="map" />
         </a>
       </p>
       <p>
-        <a href="/files/cartes-parcours/21km-large.jpg" class="mfp-image">
+        <a href="/files/cartes-parcours/21" target="_blank">
           <img src="/files/cartes-parcours/21km-small.jpg" class="map" />
         </a>
       </p>
