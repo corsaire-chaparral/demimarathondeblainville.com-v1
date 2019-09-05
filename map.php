@@ -73,7 +73,7 @@ else {
         </a>
       </p>
       <p>
-        <a href="/files/cartes-parcours/21km-large" target="_blank">
+        <a href="/files/cartes-parcours/21km-large.jpg" target="_blank">
           <img src="/files/cartes-parcours/21km-small.jpg" class="map" />
         </a>
       </p>
