@@ -46,7 +46,7 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                                   data-description="Inscription tardive - Demi-Marathon de Blainville 2019 - 10 KM"
                                   data-price="50.00"
                                   value="10 KM">10 KM</option>
-                          <option data-id="chandail-21km"
+                          <option data-id="inscription-21km"
                                   data-description="Inscription tardive - Demi-Marathon de Blainville 2019 - 21 KM"
                                   data-price="70.00"
                                   value="21 KM">21 KM</option>
