@@ -32,9 +32,9 @@ RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 
 RewriteRule ^fr/Chandail/ /chandail.php?lang=fr [L]
-RewriteRule ^fr/Chandail2/ /chandail2.php?lang=fr [L]
+RewriteRule ^fr/Chandail2/ /index.php?lang=fr [L]
 
-RewriteRule ^fr/Inscription2/ /inscription2.php?lang=fr [L]
+RewriteRule ^fr/Inscription2/ /index.php?lang=fr [L]
 
 RewriteRule ^fr/Cours/ /map.php?lang=fr [L]
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
