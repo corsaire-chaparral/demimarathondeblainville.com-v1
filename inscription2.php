@@ -28,21 +28,27 @@ include getenv("DOCUMENT_ROOT")."/config.php";
                         <select id="product-select">
                           <option data-id="inscription-1km"
                                   data-description="Inscription tardive - Demi-Marathon de Blainville 2019 - 1 KM"
+                                  data-price="15.00"
                                   value="1 KM">1 KM</option>
                           <option data-id="inscription-2km"
                                   data-description="Inscription tardive - Demi-Marathon de Blainville 2019 - 2 KM"
+                                  data-price="20.00"
                                   value="2 KM">2 KM</option>
                           <option data-id="inscription-5km"
                                   data-description="Inscription tardive - Demi-Marathon de Blainville 2019 - 5 KM"
+                                  data-price="40.00"
                                   value="5 KM">5 KM</option>
                           <option data-id="inscription-5km-marche"
                                   data-description="Inscription tardive - Demi-Marathon de Blainville 2019 - 5 KM MARCHE"
+                                  data-price="40.00"
                                   value="5 KM MARCHE">5 KM marche</option>
                           <option data-id="inscription-10km"
-                                  data-description="Inscription tardive - Demi-Marathon de Blainville 2019 - "
+                                  data-description="Inscription tardive - Demi-Marathon de Blainville 2019 - 10 KM"
+                                  data-price="50.00"
                                   value="10 KM">10 KM</option>
                           <option data-id="chandail-21km"
                                   data-description="Inscription tardive - Demi-Marathon de Blainville 2019 - 21 KM"
+                                  data-price="70.00"
                                   value="21 KM">21 KM</option>
                         </select>
                       </div>
@@ -162,9 +168,11 @@ include getenv("DOCUMENT_ROOT")."/config.php";
     var itemId = selectElem.options[selectElem.selectedIndex].getAttribute('data-id');
     var itemName = selectElem.options[selectElem.selectedIndex].getAttribute('value');
     var itemDesc = selectElem.options[selectElem.selectedIndex].getAttribute('data-description');
+    var itemPrice = selectElem.options[selectElem.selectedIndex].getAttribute('data-price');
     
     buttonElem.setAttribute('data-item-id', itemId);
     buttonElem.setAttribute('data-item-name', itemName);
+    buttonElem.setAttribute('data-item-price', itemPrice);
     buttonElem.setAttribute('data-item-description', itemDesc);
   }
 </script>
