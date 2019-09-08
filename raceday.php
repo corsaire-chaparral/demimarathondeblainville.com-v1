@@ -215,7 +215,8 @@ else {
                 Inscription en ligne (jusqu’au 6 septembre à 23h59) : <br>
             </p> 
             <p>
-                <a href="<?php echo $registration_url; ?>" target="_blank" class="big-dashed-cta"><?php echo $register_now2_text; ?></a>
+<!--                <a href="<?php echo $registration_url; ?>" target="_blank" class="big-dashed-cta"><?php echo $register_now2_text; ?></a>-->
+                <a href="<?php echo $results_url; ?>" target="_blank" class="big-dashed-cta"><?php echo $results_text; ?></a>
             </p>
           <div><p class="note"><?php echo $schedule_notes_text; ?></p></div>
         </div>

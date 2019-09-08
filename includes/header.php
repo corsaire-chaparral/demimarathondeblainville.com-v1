@@ -153,7 +153,8 @@ session_start();
     <?php if ($section=='home') { ?>
     <div class="content">
         <h1><span><?php echo $long_date_text; ?></span>LE DEMI-MARATHON<br/>DE BLAINVILLE</h1>
-        <a href="<?php echo $registration_url; ?>" target="_blank" class="big-dashed-cta"><?php echo $register_now2_text; ?></a>
+<!--        <a href="<?php echo $registration_url; ?>" target="_blank" class="big-dashed-cta"><?php echo $register_now2_text; ?></a>-->
+        <a href="<?php echo $results_url; ?>" target="_blank" class="big-dashed-cta"><?php echo $results_text; ?></a>
     </div>
     
     <!--<video autoplay loop muted poster="images/videoBG_poster.jpg" id="bgvid">-->
