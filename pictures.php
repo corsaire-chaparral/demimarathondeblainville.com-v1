@@ -12,10 +12,11 @@ else {
 <section>
     <div class="wrapper">
             
-        <h1>PHOTOS</h1>
+        <h1>PHOTOS 2019</h1>
       
       <div class="content">
-        <p>Consultez notre album photo 2019!</p>
+        <p class="large-texte">Consultez nos albums de l’événement et téléchargez gratuitement vos photos! <br>
+          <em><small>Gracieuseté de Louis-Olivier Brassard</small></em></p>
         
         <ul class="results">
           <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/11" title="21,1 km">21,1 km</a></li>
