@@ -30,7 +30,7 @@ else {
         <p><a class="button -is-block" href="https://photos.demimarathondeblainville.com">VOIR L’ALBUM COMPLET &rarr;</a></p>
             
         <div class="photoGallery row">
-            <a href="https://photos.demimarathondeblainville.com/index.php?/category/11" target="_blank" title="21,1 km"><img src="https://photos.demimarathondeblainville.com/_data/i/edition-2019/21km/_PS83429-me.JPG" />
+            <a href="https://photos.demimarathondeblainville.com/index.php?/category/11" target="_blank" title="21,1 km"><img src="https://photos.demimarathondeblainville.com/i.php?/edition-2019/21km/_PS83798-me.JPG" />
               <span>21,1 km</span>
           </a>
             <a href="https://photos.demimarathondeblainville.com/index.php?/category/10" target="_blank" title="10 km"><img src="https://photos.demimarathondeblainville.com/i.php?/edition-2019/10km/_PS83283-me.JPG" />
