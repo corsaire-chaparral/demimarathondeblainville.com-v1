@@ -29,13 +29,13 @@ $(document).ready(function(){
         type: 'image'
     });
     
-    $('.photoGallery').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery:{
-            enabled:true
-        }
-    });
+//    $('.photoGallery').magnificPopup({
+//        delegate: 'a',
+//        type: 'image',
+//        gallery:{
+//            enabled:true
+//        }
+//    });
     
     $('#videos').magnificPopup({
         delegate: '.video a',

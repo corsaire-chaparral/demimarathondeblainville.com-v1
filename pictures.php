@@ -13,77 +13,40 @@ else {
     <div class="wrapper">
             
         <h1>PHOTOS</h1>
+      
+      <div class="content">
+        <p>Consultez notre album photo 2019!</p>
+        
+        <ul class="results">
+          <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/11" title="21,1 km">21,1 km</a></li>
+          <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/10" title="10 km">10 km</a></li>
+          <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/9" title="5 km">5 km</a></li>
+          <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/7" title="2 km">2 km</a></li>
+          <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/8" title="Divers">Divers</a></li>
+        </ul>
+      </div>
+      
+        <p><a class="button -is-block" href="https://photos.demimarathondeblainville.com">VOIR L’ALBUM COMPLET &rarr;</a></p>
             
-        <div class="photoGallery">
-            <a href="/images/photos/photos_1_b.jpg"><img src="/images/photos/photos_1_s.jpg" /></a>
-            <a href="/images/photos/photos_2_b.jpg"><img src="/images/photos/photos_2_s.jpg" /></a>
-            <a href="/images/photos/photos_3_b.jpg"><img src="/images/photos/photos_3_s.jpg" /></a>
-            <a href="/images/photos/photos_4_b.jpg"><img src="/images/photos/photos_4_s.jpg" /></a>
-            <a href="/images/photos/photos_5_b.jpg"><img src="/images/photos/photos_5_s.jpg" /></a>
-            <a href="/images/photos/photos_6_b.jpg"><img src="/images/photos/photos_6_s.jpg" /></a>
-            <a href="/images/photos/photos_7_b.jpg"><img src="/images/photos/photos_7_s.jpg" /></a>
-            <a href="/images/photos/photos_8_b.jpg"><img src="/images/photos/photos_8_s.jpg" /></a>
-            <a href="/images/photos/photos_9_b.jpg"><img src="/images/photos/photos_9_s.jpg" /></a>
-            <a href="/images/photos/photos_10_b.jpg"><img src="/images/photos/photos_10_s.jpg" /></a>
-            <a href="/images/photos/photos_11_b.jpg"><img src="/images/photos/photos_11_s.jpg" /></a>
-            <a href="/images/photos/photos_12_b.jpg"><img src="/images/photos/photos_12_s.jpg" /></a>
-            <a href="/images/photos/photos_13_b.jpg"><img src="/images/photos/photos_13_s.jpg" /></a>
-            <a href="/images/photos/photos_14_b.jpg"><img src="/images/photos/photos_14_s.jpg" /></a>
-            <a href="/images/photos/photos_15_b.jpg"><img src="/images/photos/photos_15_s.jpg" /></a>
-            <a href="/images/photos/photos_16_b.jpg"><img src="/images/photos/photos_16_s.jpg" /></a>
-            <a href="/images/photos/photos_17_b.jpg"><img src="/images/photos/photos_17_s.jpg" /></a>
-            <a href="/images/photos/photos_18_b.jpg"><img src="/images/photos/photos_18_s.jpg" /></a>
-            <a href="/images/photos/photos_19_b.jpg"><img src="/images/photos/photos_19_s.jpg" /></a>
-            <a href="/images/photos/photos_20_b.jpg"><img src="/images/photos/photos_20_s.jpg" /></a>
-            <a href="/images/photos/photos_21_b.jpg"><img src="/images/photos/photos_21_s.jpg" /></a>
-            <a href="/images/photos/photos_22_b.jpg"><img src="/images/photos/photos_22_s.jpg" /></a>
-            <a href="/images/photos/photos_23_b.jpg"><img src="/images/photos/photos_23_s.jpg" /></a>
-            <a href="/images/photos/photos_24_b.jpg"><img src="/images/photos/photos_24_s.jpg" /></a>
-            <a href="/images/photos/photos_25_b.jpg"><img src="/images/photos/photos_25_s.jpg" /></a>
-            <a href="/images/photos/photos_26_b.jpg"><img src="/images/photos/photos_26_s.jpg" /></a>
-            <a href="/images/photos/photos_27_b.jpg"><img src="/images/photos/photos_27_s.jpg" /></a>
-            <a href="/images/photos/photos_28_b.jpg"><img src="/images/photos/photos_28_s.jpg" /></a>
-            <a href="/images/photos/photos_29_b.jpg"><img src="/images/photos/photos_29_s.jpg" /></a>
-            <a href="/images/photos/photos_30_b.jpg"><img src="/images/photos/photos_30_s.jpg" /></a>
-            <a href="/images/photos/photos_31_b.jpg"><img src="/images/photos/photos_31_s.jpg" /></a>
-            <a href="/images/photos/photos_32_b.jpg"><img src="/images/photos/photos_32_s.jpg" /></a>
-            <a href="/images/photos/photos_33_b.jpg"><img src="/images/photos/photos_33_s.jpg" /></a>
-            <a href="/images/photos/photos_34_b.jpg"><img src="/images/photos/photos_34_s.jpg" /></a>
-            <a href="/images/photos/photos_35_b.jpg"><img src="/images/photos/photos_35_s.jpg" /></a>
-            <a href="/images/photos/photos_36_b.jpg"><img src="/images/photos/photos_36_s.jpg" /></a>
-            <a href="/images/photos/photos_37_b.jpg"><img src="/images/photos/photos_37_s.jpg" /></a>
-            <a href="/images/photos/photos_38_b.jpg"><img src="/images/photos/photos_38_s.jpg" /></a>
-            <a href="/images/photos/photos_39_b.jpg"><img src="/images/photos/photos_39_s.jpg" /></a>
-            <a href="/images/photos/photos_40_b.jpg"><img src="/images/photos/photos_40_s.jpg" /></a>
-            <a href="/images/photos/photos_41_b.jpg"><img src="/images/photos/photos_41_s.jpg" /></a>
-            <a href="/images/photos/photos_42_b.jpg"><img src="/images/photos/photos_42_s.jpg" /></a>
-            <a href="/images/photos/photos_43_b.jpg"><img src="/images/photos/photos_43_s.jpg" /></a>
-            <a href="/images/photos/photos_44_b.jpg"><img src="/images/photos/photos_44_s.jpg" /></a>
-            <a href="/images/photos/photos_45_b.jpg"><img src="/images/photos/photos_45_s.jpg" /></a>
-            <a href="/images/photos/photos_46_b.jpg"><img src="/images/photos/photos_46_s.jpg" /></a>
-            <a href="/images/photos/photos_47_b.jpg"><img src="/images/photos/photos_47_s.jpg" /></a>
-            <a href="/images/photos/photos_48_b.jpg"><img src="/images/photos/photos_48_s.jpg" /></a>
-            <a href="/images/photos/photos_49_b.jpg"><img src="/images/photos/photos_49_s.jpg" /></a>
-            <a href="/images/photos/photos_50_b.jpg"><img src="/images/photos/photos_50_s.jpg" /></a>
-            <a href="/images/photos/photos_51_b.jpg"><img src="/images/photos/photos_51_s.jpg" /></a>
-            <a href="/images/photos/photos_52_b.jpg"><img src="/images/photos/photos_52_s.jpg" /></a>
-            <a href="/images/photos/photos_53_b.jpg"><img src="/images/photos/photos_53_s.jpg" /></a>
-            <a href="/images/photos/photos_54_b.jpg"><img src="/images/photos/photos_54_s.jpg" /></a>
-            <a href="/images/photos/photos_55_b.jpg"><img src="/images/photos/photos_55_s.jpg" /></a>
-            <a href="/images/photos/photos_56_b.jpg"><img src="/images/photos/photos_56_s.jpg" /></a>
-            <a href="/images/photos/photos_57_b.jpg"><img src="/images/photos/photos_57_s.jpg" /></a>
-            <a href="/images/photos/photos_58_b.jpg"><img src="/images/photos/photos_58_s.jpg" /></a>
-            <a href="/images/photos/photos_59_b.jpg"><img src="/images/photos/photos_59_s.jpg" /></a>
-            <a href="/images/photos/photos_60_b.jpg"><img src="/images/photos/photos_60_s.jpg" /></a>
-            <a href="/images/photos/photos_61_b.jpg"><img src="/images/photos/photos_61_s.jpg" /></a>
-            <a href="/images/photos/photos_62_b.jpg"><img src="/images/photos/photos_62_s.jpg" /></a>
-            <a href="/images/photos/photos_63_b.jpg"><img src="/images/photos/photos_63_s.jpg" /></a>
-            <a href="/images/photos/photos_64_b.jpg"><img src="/images/photos/photos_64_s.jpg" /></a>
-            <a href="/images/photos/photos_65_b.jpg"><img src="/images/photos/photos_65_s.jpg" /></a>
-            <a href="/images/photos/photos_66_b.jpg"><img src="/images/photos/photos_66_s.jpg" /></a>
-            <a href="/images/photos/photos_67_b.jpg"><img src="/images/photos/photos_67_s.jpg" /></a>
+        <div class="photoGallery row">
+            <a href="https://photos.demimarathondeblainville.com/index.php?/category/11" target="_blank" title="21,1 km"><img src="https://photos.demimarathondeblainville.com/_data/i/edition-2019/21km/_PS83429-me.JPG" />
+              <span>21,1 km</span>
+          </a>
+            <a href="https://photos.demimarathondeblainville.com/index.php?/category/10" target="_blank" title="10 km"><img src="https://photos.demimarathondeblainville.com/i.php?/edition-2019/10km/_PS83283-me.JPG" />
+              <span>10 km</span>
+          </a>
+            <a href="https://photos.demimarathondeblainville.com/index.php?/category/9" target="_blank" title="5 km"><img src="https://photos.demimarathondeblainville.com/_data/i/edition-2019/5km/_PS84658-me.JPG" />
+              <span>5 km</span>
+          </a>
+            <a href="https://photos.demimarathondeblainville.com/index.php?/category/7" target="_blank" title="2 km"><img src="https://photos.demimarathondeblainville.com/i.php?/edition-2019/2km/_PS84319-me.JPG" />
+              <span>2 km</span>
+          </a>
+            <a href="https://photos.demimarathondeblainville.com/index.php?/category/8" target="_blank" title="Divers"><img src="https://photos.demimarathondeblainville.com/_data/i/edition-2019/divers/_PS83253-me.JPG" />
+              <span>Divers</span>
+          </a>
+            
         </div>
-            
+      
     </div>
 </section>
     

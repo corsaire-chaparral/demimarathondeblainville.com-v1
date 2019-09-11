@@ -612,12 +612,19 @@ legend.course span.km10 { background: #0b64c8; }
 
 
 /*** PHOTOS ***/
-.photoGallery { margin: 0 -8px; }
+.photoGallery { margin: 25px -8px 50px; }
 
-    .photoGallery img { 
+    .photoGallery > a { 
+        display: inline-block;
         width: 25%;
         float: left;
         padding: 8px;
+        -webkit-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+    .photoGallery img { 
+      max-width: 100%;
+        
         background: #000;
         -webkit-transition: all 0.2s linear;
         transition: all 0.2s linear; }
@@ -839,7 +846,7 @@ footer {
     
     #courseAges .course { width: 33.3337%; }
     
-    .photoGallery img { width: 33.3337%; }
+    .photoGallery > a { width: 33.3337%; }
     
     #videos li .video, #videos li .title { width: 100%; }
     
@@ -879,7 +886,7 @@ footer {
     
     #courseAges .course { width: 50%; }
     
-    .photoGallery img { width: 50%; }
+    .photoGallery > a { width: 50%; }
     
 }
 
@@ -911,6 +918,7 @@ footer {
 .button.-is-block {
   display: block;
   width: 100%;
+  text-align: center;
 }
 
 .button[disabled],

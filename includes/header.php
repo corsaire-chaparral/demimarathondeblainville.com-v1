@@ -108,7 +108,7 @@ session_start();
                 <li><a href="<?php echo $info_url; ?>"><?php echo $race_day_info_text; ?></a></li>
                 <li><a href="<?php echo $course_url; ?>"><?php echo $course_map_text; ?></a></li>
                 <li><a href="<?php echo $results_url; ?>"><?php echo $results_text; ?></a></li>
-<!--                <li><a href="<?php echo $photos_url; ?>"><?php echo $photos_text; ?></a></li>-->
+                <li><a href="<?php echo $photos_url; ?>"><?php echo $photos_text; ?></a></li>
 <!--                <li><a href="<?php echo $videos_url; ?>"><?php echo $videos_text; ?></a></li>-->
 <!--                <li><a href="<?php echo $training_url; ?>"><?php echo $training_text; ?></a></li>-->
                 <li><a href="<?php echo $volunteer_url; ?>"><?php echo $volunteer_text; ?></a></li>
@@ -133,7 +133,7 @@ session_start();
                     <li><a href="<?php echo $info_url; ?>"<?php if ($section=='info') echo ' class="active"'; ?>><?php echo $race_day_info_text; ?></a></li>
                     <li><a href="<?php echo $course_url; ?>"<?php if ($section=='course') echo ' class="active"'; ?>><?php echo $course_map_text; ?></a></li>
                     <li><a href="<?php echo $results_url; ?>"<?php if ($section=='results') echo ' class="active"'; ?>><?php echo $results_text; ?></a></li>
-<!--                    <li><a href="<?php echo $photos_url; ?>"<?php if ($section=='photos') echo ' class="active"'; ?>><?php echo $photos_text; ?></a></li>-->
+                    <li><a href="<?php echo $photos_url; ?>"<?php if ($section=='photos') echo ' class="active"'; ?>><?php echo $photos_text; ?></a></li>
 <!--                    <li><a href="<?php echo $videos_url; ?>"<?php if ($section=='videos') echo ' class="active"'; ?>><?php echo $videos_text; ?></a></li>-->
 <!--                    <li><a href="<?php echo $training_url; ?>"<?php if ($section=='training') echo ' class="active"'; ?>><?php echo $training_text; ?></a></li>-->
                     <li><a href="<?php echo $volunteer_url; ?>"<?php if ($section=='volunteer') echo ' class="active"'; ?>><?php echo $volunteer_text; ?></a></li>
