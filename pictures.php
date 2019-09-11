@@ -17,6 +17,23 @@ else {
       <div class="content">
         <p class="large-texte">Consultez nos albums de l’événement et téléchargez gratuitement vos photos! <br>
           <em><small>Gracieuseté de Louis-Olivier Brassard</small></em></p>
+
+      <form action="https://photos.demimarathondeblainville.com/qsearch.php" id="photo-search-form">
+        <fieldset>
+          <div class="row">
+            <div class="col col_4">
+              <label for="photo-search-number">Dossard :</label>
+              <input id="photo-search-number" name="q" type="number" min="1" max="1000" />
+            </div>
+            <div class="col col_6">
+              <button class="button" type="submit" value="Chercher">Chercher par dossard</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+        
+        <h3>Albums :</h3>
+        <br>
         
         <ul class="results">
           <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/11" title="21,1 km">21,1 km</a></li>
@@ -50,5 +67,5 @@ else {
       
     </div>
 </section>
-    
+
 <?php include getenv("DOCUMENT_ROOT")."/includes/footer.php"; ?>

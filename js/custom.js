@@ -36,6 +36,17 @@ $(document).ready(function(){
 //            enabled:true
 //        }
 //    });
+
+  $('#photo-search-form').on('submit', function (ev) {
+//    if (!hasSubmitted) {
+//      ev.preventDefault()
+//    }
+    ev.preventDefault();
+//    var currentAction = $(this).attr('action');
+    var value = $('#photo-search-number').val();
+    $('#photo-search-number').attr('type', 'text').val('tag:' + value)
+    $(this).unbind('submit').submit();
+  });
     
     $('#videos').magnificPopup({
         delegate: '.video a',

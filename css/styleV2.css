@@ -612,6 +612,25 @@ legend.course span.km10 { background: #0b64c8; }
 
 
 /*** PHOTOS ***/
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 2px solid #ff6900;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+button {
+  font-family: Kelson, sans-serif;
+}
+
+button[type="submit"] {
+  margin: 20px 0;
+}
+
 .photoGallery { margin: 25px -8px 50px; }
 
     .photoGallery > a { 
