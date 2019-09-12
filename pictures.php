@@ -18,7 +18,7 @@ else {
         <p class="large-texte">Consultez nos albums de l’événement et téléchargez gratuitement vos photos! <br>
           <em><small>Gracieuseté de Louis-Olivier Brassard</small></em></p>
 
-        <p class="large-texte"><strong>Note</strong>&nbsp;: Certaines photos n’ont pas encore été indexées. Revenez plus tard si vous ne voyez pas votre dossard ou parcourez nos albums!</p>
+        <p><strong>Note</strong>&nbsp;: Certaines photos n’ont pas encore été indexées. Revenez plus tard si vous ne voyez pas votre dossard ou parcourez nos albums! 👇</p>
         
       <form action="https://photos.demimarathondeblainville.com/qsearch.php" id="photo-search-form">
         <fieldset>
