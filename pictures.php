@@ -25,7 +25,12 @@ else {
           <div class="row">
             <div class="col col_4">
               <label for="photo-search-number">Dossard :</label>
-              <input id="photo-search-number" name="q" type="number" min="1" max="1000" />
+              <input id="photo-search-number"
+                     name="q"
+                     type="number"
+                     min="1"
+                     max="1000"
+                     autocomplete="off" />
             </div>
             <div class="col col_6">
               <button class="button" type="submit" value="Chercher">Chercher par dossard</button>
