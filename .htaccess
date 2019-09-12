@@ -55,6 +55,7 @@ RewriteRule ^fr/Contact/ /contact.php?lang=fr [L]
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^fr/Benevoles/ /benevoles.php?lang=fr [L]
+RewriteRule ^fr/Sondage-apres-course/ /sondage.php?lang=fr [L]
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^fr/ /index.php?lang=fr [L]

@@ -623,6 +623,13 @@ input {
   font-size: 20px;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 12px;
+}
+
 button {
   font-family: Kelson, sans-serif;
 }
@@ -953,6 +960,13 @@ footer {
   padding: 3em;
   background-color: #fff;
   border-radius: 4px;
+}
+
+/*** Sondage ***/
+
+.white-section {
+  padding: 25px;
+  background-color: #fff;
 }
 
 
