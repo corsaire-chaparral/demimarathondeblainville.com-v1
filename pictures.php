@@ -48,26 +48,30 @@ else {
           <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/9" title="5 km">5 km</a></li>
           <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/7" title="2 km">2 km</a></li>
           <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/8" title="Divers">Divers</a></li>
+          <li><a href="https://photos.demimarathondeblainville.com/index.php?/category/podiums-2019" title="Podiums">Podiums</a></li>
         </ul>
       </div>
       
         <p><a class="button -is-block" href="https://photos.demimarathondeblainville.com">VOIR L’ALBUM COMPLET &rarr;</a></p>
             
         <div class="photoGallery row">
-            <a href="https://photos.demimarathondeblainville.com/index.php?/category/11" target="_blank" title="21,1 km"><img src="https://photos.demimarathondeblainville.com/i.php?/edition-2019/21km/_PS83798-me.JPG" />
+          <a href="https://photos.demimarathondeblainville.com/index.php?/category/11" target="_blank" title="21,1 km"><img src="https://photos.demimarathondeblainville.com/i.php?/edition-2019/21km/_PS83798-me.JPG" alt="21,1 km" />
               <span>21,1 km</span>
           </a>
-            <a href="https://photos.demimarathondeblainville.com/index.php?/category/10" target="_blank" title="10 km"><img src="https://photos.demimarathondeblainville.com/i.php?/edition-2019/10km/_PS83283-me.JPG" />
+          <a href="https://photos.demimarathondeblainville.com/index.php?/category/10" target="_blank" title="10 km"><img src="https://photos.demimarathondeblainville.com/i.php?/edition-2019/10km/_PS83283-me.JPG" alt="10 km" />
               <span>10 km</span>
           </a>
-            <a href="https://photos.demimarathondeblainville.com/index.php?/category/9" target="_blank" title="5 km"><img src="https://photos.demimarathondeblainville.com/_data/i/edition-2019/5km/_PS84756-me.JPG" />
+            <a href="https://photos.demimarathondeblainville.com/index.php?/category/9" target="_blank" title="5 km"><img src="https://photos.demimarathondeblainville.com/_data/i/edition-2019/5km/_PS84756-me.JPG" alt="5 km" />
               <span>5 km</span>
           </a>
-            <a href="https://photos.demimarathondeblainville.com/index.php?/category/7" target="_blank" title="2 km"><img src="https://photos.demimarathondeblainville.com/i.php?/edition-2019/2km/_PS84319-me.JPG" />
+          <a href="https://photos.demimarathondeblainville.com/index.php?/category/7" target="_blank" title="2 km"><img src="https://photos.demimarathondeblainville.com/i.php?/edition-2019/2km/_PS84319-me.JPG" alt="2 km" />
               <span>2 km</span>
           </a>
-            <a href="https://photos.demimarathondeblainville.com/index.php?/category/8" target="_blank" title="Divers"><img src="https://photos.demimarathondeblainville.com/_data/i/edition-2019/divers/_PS83253-me.JPG" />
+            <a href="https://photos.demimarathondeblainville.com/index.php?/category/8" target="_blank" title="Divers"><img src="https://photos.demimarathondeblainville.com/_data/i/edition-2019/divers/_PS83253-me.JPG" alt="Divers" />
               <span>Divers</span>
+          </a>
+          <a href="https://photos.demimarathondeblainville.com/index.php?/category/podiums-2019" target="_blank" title="Podiums"><img src="https://photos.demimarathondeblainville.com/_data/i/edition-2019/podiums/NZ6_2148-me.jpg" alt="podiums" />
+              <span>Podiums</span>
           </a>
             
         </div>
