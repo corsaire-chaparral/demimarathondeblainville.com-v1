@@ -276,7 +276,7 @@ else {
             <div class="col col_6">
               <h2>Plan de commandite</h2>
 
-              <p>Téléchargez le <a href="/files/Plan_Commandite_DMBlainville_2019.pdf">plan de commandite</a></p>
+              <p>Téléchargez le <a href="/files/Plan_Commandite_DMBlainville_2020.pdf">plan de commandite 2020</a></p>
             </div>
         </div>
     </div>
